@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { FeaturesRoutingModule } from './features-routing.module';
 import { FeaturesComponent } from './features.component';
+import { CoreModule } from '../core/core.module';
 
 
 @NgModule({
@@ -11,6 +12,7 @@ import { FeaturesComponent } from './features.component';
   ],
   imports: [
     CommonModule,
+    CoreModule,
     FeaturesRoutingModule
   ]
 })
