@@ -3,15 +3,15 @@
         <div class="row align-items-center justify-content-between flex-column flex-sm-row">
             <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; {{title}} {{ currentYear }}</div></div>
             <div class="col-auto">
-                <a class="link-light small" href="https://cursos.anartz-mugika.com/twitter" target="_blank">Twitter</a>
-                <span class="text-white mx-1">&middot;</span>
-                <a class="link-light small" href="https://cursos.anartz-mugika.com/youtube" target="_blank">Youtube</a>
-                <span class="text-white mx-1">&middot;</span>
-                <a class="link-light small" href="https://cursos.anartz-mugika.com/github" target="_blank">Github</a>
-                <span class="text-white mx-1">&middot;</span>
-                <a class="link-light small" href="https://cursos.anartz-mugika.com/medium" target="_blank">Medium</a>
-                <span class="text-white mx-1">&middot;</span>
-                <a class="link-light small" [routerLink]="['/contact']" routerLinkActive="router-link-active" >Contacto</a>
+                <app-link 
+                *ngFor="let item of contactInfoLinks; let i = index"
+                [total]="contactInfoLinks.length"
+                [index]="i"
+                [class]="item.class"
+                [link]="item.link"
+                [footer]="item.footer"
+                [title]="item.title"
+                ></app-link>
             </div>
         </div>
     </div>
