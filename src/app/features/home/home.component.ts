@@ -8,6 +8,7 @@ import { IContactInfoLinks } from '@core/interfaces/contact-info-links.interface
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
+  
   constructor() { }
 
   ngOnInit(): void {

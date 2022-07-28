@@ -2,14 +2,20 @@
     <div class="container">
         <!-- Portfolio Section Heading-->
         <h2 class="page-section-heading text-center text-uppercase text-secondary mb-3">Portfolio</h2>
-        <p class="lead">Estos son unos ejemplos de proyectos que he trabajado. SI quieres ver con más detalle todos los proyectos, te invito a que accedas al siguiente enlace.</p>
+        <p class="lead">Estos son unos ejemplos de proyectos que he trabajado. SI quieres ver con más detalle todos los
+            proyectos, te invito a que accedas al siguiente enlace.</p>
         <!-- Portfolio Grid Items-->
         <div class="row justify-content-center mt-2 mb-2 pb-2">
-            <div class="col-md-6 col-lg-4 mb-2 pb-2" *ngFor="let project of projects">
-                <div class="portfolio-item mx-auto">
-                    <img class="img-fluid cover" [src]="project.image" [alt]="project.title" />
-                </div>
-            </div>
+            <span class="col-md-6 col-lg-4 mb-2 pb-2" *ngFor="let project of projects; let i = index">
+                <a href="#modal{{i}}">
+                    <div class="portfolio-item mx-auto">
+                        <img class="img-fluid cover" [src]="project.image" [alt]="project.title" />
+                    </div>
+                </a>
+                <app-modal modalId="modal{{i}}" [cover]="project.image" [title]="project.title" [description]="project.description"></app-modal>
+            </span>
+            <div class="col-lg"><button class="btn btn-success bg-dark btn-lg float-end">Ver todos los proyectos</button></div>
+
         </div>
     </div>
 </section>

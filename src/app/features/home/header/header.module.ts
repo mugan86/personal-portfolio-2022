@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HeaderComponent } from './header.component';
-import { SharedModule } from '@shared/shared.module';
+import { LinkModule } from '@shared/link/link.module';
 
 @NgModule({
   declarations: [
@@ -9,7 +9,7 @@ import { SharedModule } from '@shared/shared.module';
   ],
   imports: [
     CommonModule,
-    SharedModule,
+    LinkModule,
   ],
   exports: [HeaderComponent]
 })

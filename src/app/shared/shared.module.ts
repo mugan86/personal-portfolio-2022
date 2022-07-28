@@ -1,16 +1,13 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { LinkComponent } from './link/link.component';
-
-
-
+import { LinkModule } from './link/link.module';
+import { ModalModule } from './modal/modal.module';
 @NgModule({
-  declarations: [
-    LinkComponent
-  ],
   imports: [
-    CommonModule
+    CommonModule,
+    LinkModule,
+    ModalModule
   ],
-  exports: [ LinkComponent]
+  exports: [ LinkModule, ModalModule ]
 })
 export class SharedModule { }
