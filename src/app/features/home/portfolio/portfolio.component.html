@@ -1,0 +1,15 @@
+<section class="page-section portfolio" id="portfolio">
+    <div class="container">
+        <!-- Portfolio Section Heading-->
+        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-3">Portfolio</h2>
+        <p class="lead">Estos son unos ejemplos de proyectos que he trabajado. SI quieres ver con más detalle todos los proyectos, te invito a que accedas al siguiente enlace.</p>
+        <!-- Portfolio Grid Items-->
+        <div class="row justify-content-center mt-2 mb-2 pb-2">
+            <div class="col-md-6 col-lg-4 mb-2 pb-2" *ngFor="let project of projects">
+                <div class="portfolio-item mx-auto">
+                    <img class="img-fluid cover" [src]="project.image" [alt]="project.title" />
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

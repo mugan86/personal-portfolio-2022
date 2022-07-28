@@ -89,9 +89,8 @@ export const PORTFOLIO_ITEMS: Array<IInfoCard> = [
     price: '',
     git: 'https://github.com/templates-desarrollo-web-mobile/freelancer-reactjs',
     tags: [
-      TAGS_ITEMS.GITHUB_ACTIONS,
       TAGS_ITEMS.REACT,
-      // TAGS_ITEMS.GITHUB_ACTIONS,
+      TAGS_ITEMS.GITHUB_ACTIONS,
       TAGS_ITEMS.DEPLOY,
       TAGS_ITEMS.TESTING,
       TAGS_ITEMS.BOOTSTRAP,
@@ -111,9 +110,8 @@ export const PORTFOLIO_ITEMS: Array<IInfoCard> = [
     price: '',
     git: 'https://github.com/React-Projects-2022/react-shop-ui',
     tags: [
-      TAGS_ITEMS.GITHUB_ACTIONS,
       TAGS_ITEMS.REACT,
-      // TAGS_ITEMS.GITHUB_ACTIONS,
+      TAGS_ITEMS.GITHUB_ACTIONS,
       TAGS_ITEMS.DEPLOY,
       TAGS_ITEMS.TESTING,
       TAGS_ITEMS.BOOTSTRAP,
@@ -303,33 +301,6 @@ export const PORTFOLIO_ITEMS: Array<IInfoCard> = [
       },
     ],
     year: '2020-2021',
-    git: '',
-    profileType: ProfileTypes.FullStack,
-    finish: true
-  },
-  {
-    id: 15,
-    title: 'Introducción a Tecnologías del Desarrollo con los Mejores',
-    description:
-      'Conoce las tecnologías usadas por los 12 Masters. Python php C# mysql Unity Angular Golang COBOL ReactJS Spring Firebase',
-    image: 'https://img-c.udemycdn.com/course/750x422/2684672_677b.jpg',
-    externalRouter: 'https://www.udemy.com/course/masters-desarrollo/',
-    price: 0,
-    tags: [
-      {
-        label: 'GraphQL',
-        color: '#bd199c',
-      },
-      {
-        label: 'Angular',
-        color: '#d6153c',
-      },
-      {
-        label: 'Deploy',
-        color: '#5d9b9c',
-      },
-    ],
-    year: '2019',
     git: '',
     profileType: ProfileTypes.FullStack,
     finish: true
@@ -568,12 +539,12 @@ export const PORTFOLIO_ITEMS: Array<IInfoCard> = [
   },
   {
     id: 29,
-    externalRouter: 'https://pypi.org/project/owm-api-mugan86/',
+    externalRouter: 'https://mugan86.github.io/ng-leaflet/',
     title: 'Angular Leaflet Map - NPM',
     description: `<p>Librería Leaflet adaptada a Angular para su uso en el framework de una manera sencilla y rápida</p><p>
       Compatible para versiones de Angular 12+.
       </p>`,
-    image: 'assets/img/portfolio/openweather_pypi.webp',
+    image: 'assets/img/portfolio/ng-leaflet-map.webp',
     price: 0,
     git: 'https://github.com/mugan86/ng-leaflet',
     tags: [TAGS_ITEMS.ANGULAR, TAGS_ITEMS.NPM, TAGS_ITEMS.TYPESCRIPT],

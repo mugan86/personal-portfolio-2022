@@ -1,21 +1,21 @@
 [
     {
         "url": "/",
-        "label": "Inicio",
+        "label": "Home",
         "icon": "",
-        "show": true
+        "show": false
     },  
     {
         "url": "/portfolio",
         "label": "Portfolio",
         "icon": "",
-        "show": true
+        "show": false
     },
     {
         "url": "/courses",
         "label": "Cursos Online",
         "icon": "",
-        "show": true
+        "show": false
     },
     {
         "url": "/projects",
@@ -39,7 +39,7 @@
         "url": "/contact",
         "label": "Contacto",
         "icon": "",
-        "show": true
+        "show": false
     },
     {
         "url": "/pricing",

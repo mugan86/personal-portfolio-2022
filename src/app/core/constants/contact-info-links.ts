@@ -23,6 +23,13 @@ export const CONTACT_INFO_LINKS: Array<IContactInfoLinks> = [
         footer: 'Github'
     },
     {
+        title: 'Linkedin - Anartz Mugika Ledo - https://www.linkedin.com/in/anartz-mugika/',
+        class: 'link-light',
+        link: 'https://www.linkedin.com/in/anartz-mugika/',
+        linkText: '<i class=\"fa-brands fa-linkedin\"></i>',
+        footer: 'Linkedin'
+    },
+    {
         title: 'Medium - mugan86 - https://mugan86.medium.com/',
         class: 'link-light',
         link: 'https://cursos.anartz-mugika.com/medium',
