@@ -543,12 +543,19 @@ export const PORTFOLIO_ITEMS: Array<IInfoCard> = [
     title: 'Angular Leaflet Map - NPM',
     description: `<p>Librería Leaflet adaptada a Angular para su uso en el framework de una manera sencilla y rápida</p><p>
       Compatible para versiones de Angular 12+.
-      </p>`,
+      </p>
+      <p>En el proyecto implemento el uso de diferentes herramientas para aplicar buenas prácticas y documentar el proyecto</p>
+      <ul>
+        <li>Angular ESLint</li>
+        <li>Husky: Uso de los hooks con commitizen (commit-msg) y lint (pre-commit)</li>
+        <li>Documentación con <a href="https://docusaurus.io/" target="_blank">Docusaurus</a> que está construido con React</li>
+        <li><a href="https://crowdin.com/" target="_blank">Crowdin</a>: Para gestionar de manera sencilla los textos i18n</li>
+      </ul>`,
     image: 'assets/img/portfolio/ng-leaflet-map.webp',
     price: 0,
     git: 'https://github.com/mugan86/ng-leaflet',
     tags: [TAGS_ITEMS.ANGULAR, TAGS_ITEMS.NPM, TAGS_ITEMS.TYPESCRIPT],
-    year: '2022',
+    year: '2022 - ?',
     profileType: ProfileTypes.Frontend,
     finish: false
   }, //
