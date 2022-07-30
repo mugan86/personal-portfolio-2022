@@ -9,4 +9,5 @@ import { shuffled } from '@core/helpers/random-array-values';
 })
 export class PortfolioComponent {
   projects = shuffled(PORTFOLIO_ITEMS).slice(0, 9);
+  projectsCount = PORTFOLIO_ITEMS.length;
 }

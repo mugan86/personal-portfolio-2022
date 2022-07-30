@@ -5,6 +5,7 @@ import { HomeRoutingModule } from './home-routing.module';
 import { HomeComponent } from './home.component';
 import { HeaderModule } from './header/header.module';
 import { PortfolioModule } from './portfolio/portfolio.module';
+import { WorkExperienceModule } from './work-experience/work-experience.module';
 
 
 @NgModule({
@@ -15,6 +16,7 @@ import { PortfolioModule } from './portfolio/portfolio.module';
     CommonModule,
     HeaderModule,
     PortfolioModule,
+    WorkExperienceModule,
     HomeRoutingModule
   ]
 })

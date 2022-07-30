@@ -559,6 +559,66 @@ export const PORTFOLIO_ITEMS: Array<IInfoCard> = [
     profileType: ProfileTypes.Frontend,
     finish: false
   }, //
+  {
+    id: 30,
+    externalRouter: 'https://world-db-graphql.herokuapp.com/graphql',
+    title: 'World Database - API GraphQL',
+    description: `<p>API GraphQL para poder gestionar la información de países y las ciudades que pertenecen a estos</p>
+      <p>Las características del proyecto son las siguientes:</p>
+      <ul>
+        <li>Desarrollado con Node Express + Typescript</li>
+        <li>Base de datos: MongoDB</li>
+        <li>Desplegado en Heroku</li>
+        <li>Creado para poder ser consumida desde cualquier proyecto cliente que queramos usar para trabajar con GraphQL</li>
+        <li>Número de paises: 250 - Número de ciudades: 149449</li>
+        <li>Opción a descargar la Base de datos desde el repositorio</li>
+      </ul>`,
+    image: 'assets/img/portfolio/rawg-api-graphql.webp',
+    price: 0,
+    git: 'https://github.com/graphql-course/world-db-graphql',
+    tags: [TAGS_ITEMS.GRAPHQL, TAGS_ITEMS.MONGO_DB, TAGS_ITEMS.TYPESCRIPT],
+    year: '2022',
+    profileType: ProfileTypes.Backend,
+    finish: true
+  }, //
+  {
+    id: 31,
+    externalRouter: 'https://world-database.vercel.app/',
+    title: 'World Database - React',
+    description: `<p>Proyecto React para poder gestionar la información de países y las ciudades que pertenecen a estos consumiendo desde una API GraphQL</p>
+      <p>Las características del proyecto son las siguientes:</p>
+      <ul>
+        <li>React versión 16</li>
+        <li>Consume una <a href="">API GraphQL</a></li>
+        <li>Desplegado en Vercel</li>
+        <li>Número de paises: 250 - Número de ciudades: 149449</li>
+      </ul>`,
+    image: 'assets/img/portfolio/rawg-api-graphql.webp',
+    price: 0,
+    git: 'https://github.com/React-Projects-2022/world-database',
+    tags: [TAGS_ITEMS.REACT, TAGS_ITEMS.GRAPHQL, TAGS_ITEMS.JAVASCRIPT],
+    year: '2022',
+    profileType: ProfileTypes.Frontend,
+    finish: true
+  }, 
+  {
+    id: 32,
+    externalRouter: 'https://www.codesyntax.com/es/proyectos/tribual?set_language=es',
+    title: 'Tribual App - Android / Ionic (iOS)',
+    description: `<p>Aplicación de preguntas y respuestas, de estilo trivial, que hemos desarrollado en CodeSyntax. Se trata de un juego, gratuito, en español, inglés y euskera. Se juega individualmente contestando 5 preguntas aleatorias. Cada partida se envía a 2 personas, por lo que existe competición entre ambas.
+
+    Lanzado en junio de 2015 con más de 130.000 preguntas. Ya se han jugado 280.000 partidas.
+    </p>
+    <p>    Más información <a href="https://www.codesyntax.com/es/blog/presentamos-tribual-una-aplicacion-movil-estilo-trivial-con-mas-de-130-000-preguntas-y-multilingue" target="_blank">en el blog.</a></p>`,
+    image: 'https://www.spri.eus/archivos/2017/11/TribualCodeSyntax.png',
+    price: 0,
+    git: '',
+    tags: [TAGS_ITEMS.ANDROID, TAGS_ITEMS.IONIC, TAGS_ITEMS.JAVASCRIPT, TAGS_ITEMS.TYPESCRIPT],
+    year: '2014-2015',
+    profileType: ProfileTypes.Frontend,
+    finish: true
+  }, 
+  // https://www.spri.eus/archivos/2017/11/TribualCodeSyntax.png
 ];
 
 //

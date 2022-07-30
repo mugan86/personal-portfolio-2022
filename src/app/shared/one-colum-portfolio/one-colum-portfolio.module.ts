@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { OneColumPortfolioComponent } from './one-colum-portfolio.component';
+import { BadgeModule } from '@shared/badge/badge.module';
 
 
 
@@ -9,7 +10,8 @@ import { OneColumPortfolioComponent } from './one-colum-portfolio.component';
     OneColumPortfolioComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    BadgeModule
   ],
   exports: [
     OneColumPortfolioComponent

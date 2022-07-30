@@ -71,6 +71,10 @@ export const TAGS_ITEMS = {
     label: 'MERN',
     color: '#47A0B8',
   },
+  MONGO_DB: {
+    label: 'Mongo DB',
+    color: '#4DB33D'
+  },
   NPM: {
     label: 'NPM',
     color: '#d6153c',
