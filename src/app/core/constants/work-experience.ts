@@ -69,7 +69,7 @@ export const workExperienceDetails: Array<IWorkExperienceItem> = [
             start: '03/2017',
             finish: '02/2019'
         },
-        collapseMoreDetailsId: 'onlineCoursesOurProjects',
+        collapseMoreDetailsId: 'faorAutomation',
         logotype: 'assets/img/work-companies/fagor_automation.webp',
         isCurrentWork: false,
         principalFunctionsDetails: '',
@@ -81,29 +81,19 @@ export const workExperienceDetails: Array<IWorkExperienceItem> = [
             start: '06/2014',
             finish: '03/2017'
         },
-        collapseMoreDetailsId: 'onlineCoursesOurProjects',
+        collapseMoreDetailsId: 'codeSyntax',
         logotype: 'https://pbs.twimg.com/profile_images/1104998186551336960/ikZKw5k4_400x400.png',
         isCurrentWork: false,
         principalFunctionsDetails: `
         <p>
-            Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá ,
-            depois divoltis
-            porris,
-            paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros
-            vermeio, in elementis
-            mé
-            pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in
-            monti palavris qui num
-            significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis,
-            mais bolis eu num
-            gostis.
+            Desarrollo de aplicaciones nativas en Android y también con Ionic para Android / iOS
         </p>
         `,
         moreDetails: `
-            <p>Some placeholder content for the first collapse component of this multi-collapse
-            example. This
-            panel
-            is hidden by default but revealed when the user activates the relevant trigger.</p>
+            Proyectos en los que he trabajado
+            <ul>
+                <li>Tribual: Aplic</li>
+            </ul>
         `
     },
     {
@@ -112,7 +102,7 @@ export const workExperienceDetails: Array<IWorkExperienceItem> = [
             start: '03/2014',
             finish: '06/2014'
         },
-        collapseMoreDetailsId: 'onlineCoursesOurProjects',
+        collapseMoreDetailsId: 'codeSyntaxFCT',
         logotype: 'https://pbs.twimg.com/profile_images/1104998186551336960/ikZKw5k4_400x400.png',
         isCurrentWork: false,
         principalFunctionsDetails: `
