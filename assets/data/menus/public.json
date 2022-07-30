@@ -1,0 +1,56 @@
+[
+    {
+        "url": "/",
+        "label": "Home",
+        "icon": "",
+        "show": false
+    },  
+    {
+        "url": "/portfolio",
+        "label": "Portfolio",
+        "icon": "",
+        "show": false
+    },
+    {
+        "url": "/courses",
+        "label": "Cursos Online",
+        "icon": "",
+        "show": false
+    },
+    {
+        "url": "/projects",
+        "label": "Proyectos",
+        "icon": "",
+        "show": false
+    },
+    {
+        "url": "/gallery",
+        "label": "Galería",
+        "icon": "",
+        "show": false
+    },
+    {
+        "url": "/about",
+        "label": "Sobre mí",
+        "icon": "",
+        "show": false
+    },
+    {
+        "url": "/contact",
+        "label": "Contacto",
+        "icon": "",
+        "show": false
+    },
+    {
+        "url": "/pricing",
+        "label": "Soporte Premium",
+        "icon": "",
+        "show": false
+    },
+    {
+        "url": "/faq",
+        "label": "FAQ",
+        "icon": "",
+        "show": false
+    }
+]
