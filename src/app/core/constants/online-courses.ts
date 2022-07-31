@@ -151,26 +151,5 @@ export const COURSES_OFFERS: Array<IInfoCard> = [
       },
     ],
   },
-  {
-    title: 'Introducción a Tecnologías del Desarrollo con los Mejores',
-    description:
-      'Conoce las tecnologías usadas por los 12 Masters. Python php C# mysql Unity Angular Golang COBOL ReactJS Spring Firebase',
-    image: 'https://img-c.udemycdn.com/course/750x422/2684672_677b.jpg',
-    externalRouter: 'https://www.udemy.com/course/masters-desarrollo/',
-    price: 0,
-    tags: [
-      {
-        label: 'GraphQL',
-        color: '#bd199c',
-      },
-      {
-        label: 'Angular',
-        color: '#d6153c',
-      },
-      {
-        label: 'Deploy',
-        color: '#5d9b9c',
-      },
-    ],
-  },
+  
 ];

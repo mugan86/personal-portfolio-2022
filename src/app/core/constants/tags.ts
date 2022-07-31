@@ -59,6 +59,10 @@ export const TAGS_ITEMS = {
     label: 'JS / TS',
     color: '#0850d4',
   },
+  KOTLIN: {
+    label: 'Kotlin',
+    color: '#ff9933',
+  },
   MASTERCLASS: {
     label: 'Masterclass',
     color: '#078473'
@@ -74,6 +78,10 @@ export const TAGS_ITEMS = {
   MONGO_DB: {
     label: 'Mongo DB',
     color: '#4DB33D'
+  },
+  MYSQL: {
+    label: 'MySQL',
+    color: '#ff99ff'
   },
   NPM: {
     label: 'NPM',

@@ -600,7 +600,7 @@ export const PORTFOLIO_ITEMS: Array<IInfoCard> = [
     year: '2022',
     profileType: ProfileTypes.Frontend,
     finish: true
-  }, 
+  },
   {
     id: 32,
     externalRouter: 'https://www.codesyntax.com/es/proyectos/tribual?set_language=es',
@@ -615,10 +615,54 @@ export const PORTFOLIO_ITEMS: Array<IInfoCard> = [
     git: '',
     tags: [TAGS_ITEMS.ANDROID, TAGS_ITEMS.IONIC, TAGS_ITEMS.JAVASCRIPT, TAGS_ITEMS.TYPESCRIPT],
     year: '2014-2015',
-    profileType: ProfileTypes.Frontend,
+    profileType: ProfileTypes.Mobile,
     finish: true
-  }, 
-  // https://www.spri.eus/archivos/2017/11/TribualCodeSyntax.png
+  },
+  {
+    id: 33,
+    title: 'Crazy Words - Generador de preguntas',
+    description: `<p>Proyecto que sirve para generar preguntas de manera automática de una manera rápida y sin errores en unos pocos segundos, para poder generar muchas preguntas para juegos de tipo Quiz, Ahorcado,...</p>
+
+    <p> Se han generado más de 200000 preguntas de muchos temas como deportes, historia, sobre números romanos, contar cuantos caracteres hay y mucho más.
+    </p>
+    <p>El proyecto nunca ha sido publico, se usó para aprender a automatizar procesos para generar muchas preguntas sin tener que hacerlo a mano</p>`,
+    image: 'assets/img/portfolio/nothing.webp',
+    price: 0,
+    git: '',
+    tags: [TAGS_ITEMS.KOTLIN, TAGS_ITEMS.MYSQL],
+    year: '2017-2018',
+    profileType: ProfileTypes.Backend,
+    finish: true
+  },
+  {
+    id: 34,
+    title: 'Android Network Change Receiver',
+    description: `<p>Proyecto librería de Android que sirve para tener en todo momento sincronizada nuestra app con el estado de la red.</p>
+
+    <p> En el momento que detecta una conexión nos dirá el tipo que es. WIFI, 3G, 4G,...
+    </p>`,
+    image: 'assets/img/portfolio/nothing.webp',
+    price: 0,
+    git: 'https://github.com/mugan86/android-network-change-receiver',
+    tags: [TAGS_ITEMS.KOTLIN],
+    year: '2017',
+    profileType: ProfileTypes.Mobile,
+    finish: true
+  },
+
+  {
+    id: 35,
+    title: 'Conversor de divisas - Currency converter',
+    externalRouter: 'https://play.google.com/store/apps/details?id=amldev.currency&hl=es',
+    description: `<p>Aplicación donde ponemos en práctica los conocimientos de Kotlin aplicando el patrón de arquitectura MVP mientras desarrollo una app para convertir divisas en 11 monedas diferentes</p>`,
+    image: 'assets/img/portfolio/nothing.webp',
+    price: 0,
+    git: 'https://play.google.com/store/apps/details?id=amldev.currency&hl=es',
+    tags: [TAGS_ITEMS.KOTLIN, TAGS_ITEMS.REST],
+    year: '2017',
+    profileType: ProfileTypes.Mobile,
+    finish: true
+  },
 ];
 
 //
