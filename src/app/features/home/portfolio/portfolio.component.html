@@ -5,6 +5,9 @@
         <p class="lead">Estos son unos ejemplos de proyectos que he trabajado (se cargan aleatoriamente). Si quieres <b>ver con más detalle todos los
             proyectos, te invito a que accedas al <a [routerLink]="['portfolio']">siguiente enlace.</a></b></p>
             <!-- Portfolio Grid Items-->
+        <div class="row mb-2">
+            <div class="col-lg"><span class="important-info">Total de proyectos: <span>{{ projectsCount }}</span> </span><button class="btn btn-success bg-dark btn-lg float-end" [routerLink]="['projects']">Ver todos los proyectos</button></div>
+        </div>
         <div class="row justify-content-center mt-2 mb-2 pb-2">
             <span class="col-md-6 col-lg-4 mb-2 pb-2" *ngFor="let project of projects; let i = index">
                 <a href="#modal{{i}}">
@@ -14,7 +17,7 @@
                 </a>
                 <app-modal modalId="modal{{i}}" [cover]="project.image" [title]="project.title" [description]="project.description"></app-modal>
             </span>
-            <div class="col-lg"><span class="important-info">Total de proyectos: {{ projectsCount }} </span><button class="btn btn-success bg-dark btn-lg float-end" [routerLink]="['projects']">Ver todos los proyectos</button></div>
+            
 
         </div>
     </div>

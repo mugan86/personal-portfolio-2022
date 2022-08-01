@@ -550,7 +550,8 @@ export const PORTFOLIO_ITEMS: Array<IInfoCard> = [
         <li>Husky: Uso de los hooks con commitizen (commit-msg) y lint (pre-commit)</li>
         <li>Documentación con <a href="https://docusaurus.io/" target="_blank">Docusaurus</a> que está construido con React</li>
         <li><a href="https://crowdin.com/" target="_blank">Crowdin</a>: Para gestionar de manera sencilla los textos i18n</li>
-      </ul>`,
+      </ul>
+      El proyecto publicado en NPM lo encontramos en el <a href="https://www.npmjs.com/package/@mugan86/ng-leaflet" target="_blank">siguiente enlace.</a>`,
     image: 'assets/img/portfolio/ng-leaflet-map.webp',
     price: 0,
     git: 'https://github.com/mugan86/ng-leaflet',

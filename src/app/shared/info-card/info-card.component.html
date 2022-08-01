@@ -10,7 +10,7 @@
     <span *ngIf="info.price !== 0" class="bottom-left">{{ info.price }}</span>
   </div>
 
-  <div class="card-body ">
+  <div class="card-body mt-2">
     <app-badge
       *ngFor="let badge of info.tags"
       [label]="badge.label"
