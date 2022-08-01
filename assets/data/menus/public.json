@@ -3,19 +3,19 @@
         "url": "/",
         "label": "Home",
         "icon": "",
-        "show": false
+        "show": true
     },  
     {
-        "url": "/portfolio",
-        "label": "Portfolio",
+        "url": "/projects",
+        "label": "Proyectos",
         "icon": "",
-        "show": false
+        "show": true
     },
     {
         "url": "/courses",
         "label": "Cursos Online",
         "icon": "",
-        "show": false
+        "show": true
     },
     {
         "url": "/projects",
