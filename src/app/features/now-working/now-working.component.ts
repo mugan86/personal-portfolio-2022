@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { NOW_WORKING_LEARN, NOW_WORKING_PROJECTS } from '@core/constants/now-working';
 
 @Component({
   selector: 'app-now-working',
@@ -6,15 +7,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./now-working.component.css']
 })
 export class NowWorkingComponent {
-  projects = [
-    {
-      description: 'Proyecto que nos genera una tarjeta de contacto a partir de introducir unos datos y que esa tarjeta genera un código QR y da opción a copiar todo el HTML para pegarlo en cualquier firma de email',
-      title: 'Generador de tarjetas de contacto con QR + VCard',
-      logo: 'assets/img/now-working/qr-vcard.webp',
-      url: 'https://qr-with-vcard-app.stackblitz.io'
-    }
-  ];
-  learn= [
-
-  ]
+  projects = NOW_WORKING_PROJECTS;
+  learn= NOW_WORKING_LEARN;
 }
