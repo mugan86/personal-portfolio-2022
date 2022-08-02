@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { NowWorkingComponent } from './now-working.component';
 import { NowWorkingRoutingModule } from './now-working-routing.module';
+import { SectionItemsModule } from './section-items/section-items.module';
 
 
 @NgModule({
@@ -11,6 +12,7 @@ import { NowWorkingRoutingModule } from './now-working-routing.module';
   ],
   imports: [
     CommonModule,
+    SectionItemsModule,
     NowWorkingRoutingModule
   ]
 })
