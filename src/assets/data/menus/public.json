@@ -18,10 +18,10 @@
         "show": true
     },
     {
-        "url": "/projects",
-        "label": "Proyectos",
+        "url": "/now-working",
+        "label": "Trabajando en...",
         "icon": "",
-        "show": false
+        "show": true
     },
     {
         "url": "/gallery",
