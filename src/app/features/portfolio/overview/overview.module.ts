@@ -5,6 +5,7 @@ import { CommonModule } from '@angular/common';
 
 import { OverviewComponent } from './overview.component';
 import { PaginationModule } from '@shared/pagination/pagination.module';
+import { TranslateModule } from '@ngx-translate/core';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { PaginationModule } from '@shared/pagination/pagination.module';
     CommonModule,
     OneColumPortfolioModule,
     PaginationModule,
-    FormsModule
+    FormsModule,
+    TranslateModule
   ],
   exports: [OverviewComponent]
 })

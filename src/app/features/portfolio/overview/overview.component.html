@@ -2,9 +2,9 @@
 <section class="py-5" *ngIf="infoElements.length > 0">
   <div class="container-fluid px-5 my-2">
     <div class="text-center mb-5">
-      <h1 class="fw-bolder">Proyectos personales / profesionales</h1>
+      <h1 class="fw-bolder">{{ 'title' | translate }}</h1>
       <p class="lead fw-normal text-muted mb-0">
-        Portfolio con los proyectos a destacar
+        {{ 'subtitle' | translate }}
       </p>
     </div>
     <div class="row mb-5">
@@ -16,7 +16,7 @@
             type="text"
             class="form-control"
             autofocus
-            placeholder="Busca el proyecto/s y/o tecnología/s que deseas"
+            placeholder="{{'inputPlaceholder' | translate }}"
             [(ngModel)]="query"
             (ngModelChange)="searchData($event)"
             id="listSearch"
@@ -124,6 +124,8 @@
         <app-one-colum-portfolio
           [info]="c"
           *ngFor="let c of showItems"
+          [btnDetailsLabel] = "'buttons.details'"
+          [btnExternalLabel] = "'buttons.showCode'"
         ></app-one-colum-portfolio>
         <div class="alert alert-info" *ngIf="pagination.length === 0">
           No hay resultados con lo que buscas. Por favor, prueba a realizar la

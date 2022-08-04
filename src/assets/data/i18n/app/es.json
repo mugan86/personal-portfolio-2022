@@ -1,4 +1,7 @@
 {
+    "footer": {
+        "allRightsReserved": "Todos los derechos reservados"
+    },
     "navbar": {
         "aboutMe": "Sobre mí",
         "contact": "Contacto",

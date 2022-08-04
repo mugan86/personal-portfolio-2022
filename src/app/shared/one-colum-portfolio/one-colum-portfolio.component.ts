@@ -18,6 +18,10 @@ export class OneColumPortfolioComponent {
   @Input() btnExternalLabel = "Código"
   constructor(private router: Router) { }
 
+  ngOnInit() {
+    console.log(this.btnDetailsLabel, this.btnExternalLabel);
+  }
+
   showDetails = (id: number | undefined) => this.router.navigate(['/portfolio/item', id]);
   
 

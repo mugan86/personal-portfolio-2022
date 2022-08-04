@@ -4,6 +4,7 @@ import { IInfoCard } from '@core/interfaces/info-card.interface';
 import { shuffled } from '@core/helpers/random-array-values';
 import { arrayNumberFromRange, technologiesList } from '@core/helpers/filters-values';
 import { filter } from 'rxjs/operators';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-portfolio-overview',
@@ -21,6 +22,11 @@ export class OverviewComponent implements AfterViewInit {
   public query: string = '';
   filtersByYear = arrayNumberFromRange(2012, new Date().getFullYear());
   filtersByTechnologies = technologiesList();
+
+  constructor(private translate: TranslateService) {
+    this.translate.use('es');
+    this.translate.setDefaultLang('es');
+  }
 
   ngAfterViewInit(): void {
     //Called after ngAfterContentInit when the component's view has been initialized. Applies to components only.

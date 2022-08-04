@@ -31,7 +31,7 @@
       (click)="openExternal(info.externalRouter)"
       class="btn btn-primary"
     >
-      {{ btnDetailsLabel }}
+      {{ btnDetailsLabel | translate }}
     </button>
     <button
       *ngIf="info.git && info.git !== ''"
@@ -39,7 +39,7 @@
       (click)="openExternal(info.git)"
       class="btn btn-outline-primary ms-3"
     >
-      {{ btnExternalLabel }}
+      {{ btnExternalLabel | translate }}
     </button>
   </div>
 </div>
