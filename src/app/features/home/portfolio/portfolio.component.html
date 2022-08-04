@@ -14,7 +14,7 @@
         <div class="row justify-content-center mt-2 mb-2 pb-2">
             <span class="col-md-6 col-lg-4 mb-2 pb-2" *ngFor="let project of projects; let i = index">
                 <a data-bs-toggle="modal" [attr.data-bs-target]="'#staticBackdrop'+ i">
-                    <div class="mx-auto">
+                    <div class="portfolio-item mx-auto">
                         <img class="img-fluid cover" [src]="project.image" [alt]="project.title" />
                         <div class="card-img-overlay">
                             <h5 class="card-title">{{ project.title }}</h5>
