@@ -7,6 +7,6 @@ import menuItemsList from '@data/menus/public.json';
   styleUrls: ['./navbar.component.scss']
 })
 export class NavbarComponent {
-  title=GENERAL.title
+  title = GENERAL.title
   menuItems = menuItemsList
 }
