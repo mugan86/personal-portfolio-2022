@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { INowWorkingItem } from '@core/interfaces/now-working.interface';
 
 @Component({
@@ -6,7 +6,7 @@ import { INowWorkingItem } from '@core/interfaces/now-working.interface';
   templateUrl: './section-items.component.html',
   styleUrls: ['./section-items.component.css']
 })
-export class SectionItemsComponent {
+export class SectionItemsComponent implements OnInit{
   @Input() projectWorking!: boolean;
   @Input() nowWorkingElements: Array<INowWorkingItem> = [];
   headerData: {

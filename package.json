@@ -10,6 +10,7 @@
     "lint": "ng lint",
     "prepare": "husky install",
     "deploy": "ng deploy --base-href='/personal-portfolio-2022/'",
+    "build:prod": "ng build --base-href='./' --configuration production",
     "complexity": "npx code-complexity . --filter '**/*.ts' --limit 10 --sort score"
   },
   "private": true,
