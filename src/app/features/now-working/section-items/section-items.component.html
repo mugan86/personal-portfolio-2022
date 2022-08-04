@@ -1,0 +1,26 @@
+<section>
+    <div class="container mt-1">
+        <header class="mb-2">
+            <!-- Post title-->
+            <h3 class="fw-bolder mb-1">{{ headerData.action }}</h3>
+            <!-- Post meta content-->
+            <div class="text-muted fst-italic mb-4">{{ headerData.description }}</div>
+            <!-- Post categories
+            <a class="badge bg-secondary text-decoration-none link-light" href="#!">Web Design</a>&nbsp;
+            <a class="badge bg-secondary text-decoration-none link-light" href="#!">Freebies</a>-->
+        </header>
+        <div class="row mb-4">
+            <div class="col-lg-4" *ngFor="let item of nowWorkingElements">
+                <div class="card mb-4 px-2 py-2 shadow">
+                    <img class="card-img-top" [src]="item.logo" [alt]="item.title">
+                    <div class="card-body">
+                        <!--<div class="small text-muted">January 1, 2022</div>-->
+                        <h4 class="card-title">{{ item.title }}</h4>
+                        <p class="card-text">{{ item.description }}</p>
+                        <a *ngIf="item.url !== ''" class="btn btn-primary bg-dark" [href]="item.url" target="_blank">Ver más</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

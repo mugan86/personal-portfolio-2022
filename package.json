@@ -8,7 +8,10 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "lint": "ng lint",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "deploy": "ng deploy --base-href='/personal-portfolio-2022/'",
+    "build:prod": "ng build --base-href='./' --configuration production",
+    "complexity": "npx code-complexity . --filter '**/*.ts' --limit 10 --sort score"
   },
   "private": true,
   "dependencies": {
@@ -17,6 +20,7 @@
     "@angular/compiler": "^14.1.0",
     "@angular/core": "^14.1.0",
     "@angular/forms": "^14.1.0",
+    "@angular/localize": "^14.1.0",
     "@angular/platform-browser": "^14.1.0",
     "@angular/platform-browser-dynamic": "^14.1.0",
     "@angular/router": "^14.1.0",
@@ -38,6 +42,7 @@
     "@types/jasmine": "~4.0.0",
     "@typescript-eslint/eslint-plugin": "5.29.0",
     "@typescript-eslint/parser": "5.29.0",
+    "angular-cli-ghpages": "^1.0.3",
     "eslint": "^8.18.0",
     "husky": "^8.0.0",
     "jasmine-core": "~4.2.0",

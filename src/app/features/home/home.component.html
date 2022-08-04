@@ -1,1 +1,60 @@
-<p>home works!</p>
+<app-home-header></app-home-header>
+
+<!-- Content section-->
+<section class="py-2">
+  <div class="container my-5">
+    <div class="row justify-content-center">
+      <h2 class="page-section-heading text-center text-uppercase text-secondary mb-3">¿Quién soy?</h2>
+
+      <p class="lead">Soy desarrrolador web / mobile (Frontend) y Backend con tecnologías REST y GraphQL para el
+        desarrollo de APIs con más de 10 años de experiencia desde que me inicié en el mundo
+        del desarrollo en el que he trabajado en todo tipo de proyectos para diferentes ámbitos como el deporte,
+        cultura, temas sociales, juegos, industria,...</p>
+
+      <p class="lead">Soy una <b>persona trabajadora, responsable, detallista, pro-activa y empática</b>, con gran
+        capacidad de resolver problemas
+        complejos en situaciones difíciles. Soy una persona exigente y disciplinada con los demás, aunque ese nivel de
+        exigencia lo aplico a mayor escala conmigo mismo.</p>
+
+      <p class="lead">Me apasiona programar, me gusta dedicarle algo de tiempo a diario, aunque sea a leer tutoriales,
+        realizar
+        cursos e investigar. Me gusta mucho también trabajar con datos, jugar con ellos y hago uso frecuente de los
+        datos abiertos.</p>
+
+      <p class="lead">Uno de mis casos de éxito, ha sido en el ámbito mobile en el que fui de
+        uno de los
+        ganadores del concurso de datos abiertos de mi comunidad autónoma que es el País Vasco con el proyecto <a
+          href="https://www.palabraderunner.com/servirace-app-buscador-carreras/" target="_blank">Servirace</a>
+        aplicación desarrollada desde Android 2.+ hasta la versión 8 en el que he invertido muchísimas horas siendo el
+        responsable del proyecto en todos los aspectos y desarrollándolo en mis ratos libres ajeno a mi trabajo. Puede
+        que en el futuro retome este proyecto.</p>
+
+      <p class="lead">
+        Si quieres saber más de mí, te invito a <a [routerLink]="['projects']">que visites el apartado de proyectos</a> donde puedes encontrar todo en lo que he trabajado y estoy trabajando con información detallada y aparte de eso, puedes ver más acerca de mi experiencia siguiendo al final de esta página principal.
+      </p>
+    </div>
+  </div>
+</section>
+<hr>
+<section>
+  <app-home-skills></app-home-skills>
+</section>
+<hr>
+<app-home-portfolio></app-home-portfolio>
+<hr>
+<app-work-experience></app-work-experience>
+<!-- Content section-->
+<section class="py-5" *ngIf="1 !== 1">
+  <div class="container my-5">
+    <div class="row justify-content-center">
+      <div class="col-lg-6">
+        <h2>Engaging Background Images</h2>
+        <p class="lead">The background images used in this template are sourced from Unsplash and are open
+          source and free to use.</p>
+        <p class="mb-0">I can't tell you how many people say they were turned off from science because of a
+          science teacher that completely sucked out all the inspiration and enthusiasm they had for the
+          course.</p>
+      </div>
+    </div>
+  </div>
+</section>
