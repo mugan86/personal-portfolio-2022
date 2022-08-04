@@ -1,3 +1,9 @@
+.portfolio-item {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
 .important-info {
     font-size: x-large;
 }
@@ -5,4 +11,9 @@
 .important-info span {
     color: #2c3e50;
     font-size: xx-large;
+}
+
+.card-img-overlay h5 {
+    padding: 0.3rem;
+    background: rgba(0, 0, 0, 0.5);
 }
