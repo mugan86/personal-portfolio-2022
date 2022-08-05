@@ -19,8 +19,8 @@ export class SectionItemsComponent implements OnInit{
 
   ngOnInit() {
     this.headerData = (this.projectWorking) ? {
-      action: 'Trabajando en estos proyectos',
-      description: 'Proyectos personales en los que estoy trabajando actualmente en mi tiempo libre.'
+      action: 'nowWorkingProjects.title',
+      description: 'nowWorkingProjects.subtitle'
     } : {
       action: 'Estudiando',
       description: 'Cursos / Libros en los que estoy dedicando tiempo para adquirir nuevos conocimientos'

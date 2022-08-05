@@ -128,8 +128,7 @@
           [btnExternalLabel] = "'buttons.showCode'"
         ></app-one-colum-portfolio>
         <div class="alert alert-info" *ngIf="pagination.length === 0">
-          No hay resultados con lo que buscas. Por favor, prueba a realizar la
-          búsqueda con otros términos.
+          {{ 'alerts.noResults' | translate }}
         </div>
       </div>
       <div class="col-lg-2"></div>

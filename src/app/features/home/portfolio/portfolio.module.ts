@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { PortfolioComponent } from './portfolio.component';
 import { SharedModule } from '@shared/shared.module';
 import { RouterModule } from '@angular/router';
+import { TranslateModule } from '@ngx-translate/core';
 
 
 
@@ -13,6 +14,7 @@ import { RouterModule } from '@angular/router';
   imports: [
     CommonModule,
     RouterModule,
+    TranslateModule,
     SharedModule
   ],
   exports: [

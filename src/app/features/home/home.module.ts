@@ -7,7 +7,13 @@ import { HeaderModule } from './header/header.module';
 import { PortfolioModule } from './portfolio/portfolio.module';
 import { WorkExperienceModule } from './work-experience/work-experience.module';
 import { SkillsModule } from './skills/skills.module';
-
+import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
+import { HttpClient } from '@angular/common/http';
+import { CustomTranslateLoader } from '@core/helpers/i18n';
+import { FEATURE_DIRECTORIES_I18N } from '@core/constants/i18n';
+export const createTranslateLoader = (http: HttpClient) => {
+  return new CustomTranslateLoader(http, FEATURE_DIRECTORIES_I18N.home);
+};
 
 @NgModule({
   declarations: [
@@ -19,7 +25,15 @@ import { SkillsModule } from './skills/skills.module';
     PortfolioModule,
     WorkExperienceModule,
     SkillsModule,
-    HomeRoutingModule
+    HomeRoutingModule,
+    TranslateModule.forChild({
+      loader: {
+        provide: TranslateLoader,
+        useFactory: createTranslateLoader,
+        deps: [HttpClient],
+      },
+      isolate: true,
+    }),
   ]
 })
 export class HomeModule { }

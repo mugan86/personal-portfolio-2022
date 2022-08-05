@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { NOW_WORKING_LEARN, NOW_WORKING_PROJECTS } from '@core/constants/now-working';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-now-working',
@@ -9,4 +10,7 @@ import { NOW_WORKING_LEARN, NOW_WORKING_PROJECTS } from '@core/constants/now-wor
 export class NowWorkingComponent {
   projects = NOW_WORKING_PROJECTS;
   learn= NOW_WORKING_LEARN;
+  constructor(private translate: TranslateService) {
+    this.translate.use('es');
+  }
 }

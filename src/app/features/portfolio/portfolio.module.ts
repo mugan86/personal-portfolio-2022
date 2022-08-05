@@ -19,7 +19,6 @@ export const createTranslateLoader = (http: HttpClient) => {
   imports: [
     CommonModule,
     PortfolioRoutingModule,
-    
     TranslateModule.forChild({
       loader: {
         provide: TranslateLoader,

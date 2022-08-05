@@ -1,4 +1,7 @@
 {
+    "alerts": {
+        "noResults": "No hay resultados con lo que buscas. Por favor, prueba a realizar la búsqueda con otros términos."
+    },
     "buttons":  {
         "details": "Detalles",
         "showCode": "Ver código"

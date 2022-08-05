@@ -1,11 +1,9 @@
 <section class="mt-4 py-5">
     <div class="container">
-        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-3">Experiencia Laboral</h2>
-        <p class="lead">Desde el 2006 he trabajado en otro tipo de trabajos que no son de desarrollo y también he
-            dedicado
-            para estudiar en la universidad y Formación Profesional, por lo que pongo solo la experiencia relevante en
-            el
-            ámbito personal (proyectos propios desde el 2008) y profesional</p>
+        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-3">
+            {{ 'titles.workExperience' | translate }}
+        </h2>
+        <p class="lead">{{'workExperienceElements.intro' | translate}}</p>
         <ul class="timeline">
             <li *ngFor="let work of works">
                 <div class="timeline-badge" [ngClass]="{'success': work.isCurrentWork, 'danger': !work.isCurrentWork}"><i class="fa-solid" [ngClass]="{'fa-square-check': work.isCurrentWork, 'fa-circle-stop': !work.isCurrentWork}"></i></div>
@@ -28,7 +26,7 @@
                                     <div class="col-lg-4"><a class="btn btn-success bg-dark float-end"
                                             data-bs-toggle="collapse" href="#{{work.collapseMoreDetailsId}}" role="button"
                                             aria-expanded="false" [attr.aria-controls]="work.collapseMoreDetailsId"><i
-                                                class="fa-solid fa-circle-info"></i> Más detalles</a></div>
+                                                class="fa-solid fa-circle-info"></i> {{'buttons.moreDetails' | translate }}</a></div>
                                 </div>
 
                             </div>

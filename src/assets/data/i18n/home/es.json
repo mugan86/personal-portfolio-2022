@@ -1,0 +1,18 @@
+{
+    "buttons": {
+        "moreDetails": "Más detalles",
+        "showAllProjects": "Ver todos los proyectos"
+    },
+    "texts": {
+        "totalProjects": "Total de proyectos"
+    },
+    "titles": {
+        "portfolio": "PORTFOLIO",
+        "skills": "SKILLS",
+        "whoIAm": "¿QUIÉN SOY?",
+        "workExperience": "EXPERIENCIA LABORAL"
+    },
+    "workExperienceElements": {
+        "intro": "Desde el 2006 he trabajado en otro tipo de trabajos que no son de desarrollo y también he dedicado para estudiar en la universidad y Formación Profesional, por lo que pongo solo la experiencia relevante en el ámbito personal (proyectos propios desde el 2008) y profesional."
+    }
+}
