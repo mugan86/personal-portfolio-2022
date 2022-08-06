@@ -1,0 +1,12 @@
+{
+    "alerts": {
+        "noResults": "No hay resultados con lo que buscas. Por favor, prueba a realizar la búsqueda con otros términos."
+    },
+    "buttons":  {
+        "details": "Detalles",
+        "showCode": "Ver código"
+    },
+    "inputPlaceholder": "Busca el proyecto/s y/o tecnología/s que deseas",
+    "subtitle": "Portfolio con los proyectos a destacar",
+    "title": "Proyectos personales / profesionales"
+}
