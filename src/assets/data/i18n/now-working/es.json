@@ -3,7 +3,20 @@
 
 {
     "nowLearn": {
-        "content": {},
+        "content": {
+            "solid": {
+                "description": "Fundamentos de la arquitectura y desarrollo de software.",
+                "title": "Principios SOLID y Clean Code"
+            },
+            "nestjs": {
+                "description": "REST, TypeScript, Websockets, Autenticación, Authorización, Docker, Mongo, Postgres, TypeORM,...",
+                "title": "Nest: Desarrollo backend escalable con Node"
+            },
+            "devops": {
+                "description": "Inicia tu carrera DevOps de manera práctica, aprende Docker, pipelines, jenkins, orquestar servicios en kubernetes y más",
+                "title": "DevOps con Docker, Jenkins, Kubernetes, git, GitFlow CI y CD"
+            }
+        },
         "title": "",
         "subtitle": ""
     },

@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { NavbarModule } from './components/navbar/navbar.module';
 import { TitleCaseWordPipe } from './pipes/title-case-word.pipe';
+import { JoinPipe } from './pipes/join.pipe';
 
 
 @NgModule({
@@ -14,10 +15,12 @@ import { TitleCaseWordPipe } from './pipes/title-case-word.pipe';
   exports: [
     FooterModule,
     NavbarModule,
-    TitleCaseWordPipe
+    TitleCaseWordPipe,
+    JoinPipe
   ],
   declarations: [
-    TitleCaseWordPipe
+    TitleCaseWordPipe,
+    JoinPipe
   ]
 })
 export class CoreModule { }

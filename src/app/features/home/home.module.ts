@@ -11,6 +11,7 @@ import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { HttpClient } from '@angular/common/http';
 import { CustomTranslateLoader } from '@core/helpers/i18n';
 import { FEATURE_DIRECTORIES_I18N } from '@core/constants/i18n';
+import { CoreModule } from '@core/core.module';
 export const createTranslateLoader = (http: HttpClient) => {
   return new CustomTranslateLoader(http, FEATURE_DIRECTORIES_I18N.home);
 };
@@ -26,6 +27,7 @@ export const createTranslateLoader = (http: HttpClient) => {
     WorkExperienceModule,
     SkillsModule,
     HomeRoutingModule,
+    CoreModule,
     TranslateModule.forChild({
       loader: {
         provide: TranslateLoader,

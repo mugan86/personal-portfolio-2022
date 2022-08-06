@@ -19,17 +19,10 @@
       [backgroundColor]="badge.color"
     ></app-badge>
     <p [innerHTML]="info.description"></p>
-    <!--<button
-      type="button"
-      (click)="showDetails(info.id)"
-      class="btn btn-primary"
-    >
-      {{ btnDetailsLabel }}
-    </button>-->
     <button
       type="button"
       (click)="openExternal(info.externalRouter)"
-      class="btn btn-primary"
+      class="btn btn-anartz"
     >
       {{ btnDetailsLabel | translate }}
     </button>
@@ -37,7 +30,7 @@
       *ngIf="info.git && info.git !== ''"
       type="button"
       (click)="openExternal(info.git)"
-      class="btn btn-outline-primary ms-3"
+      class="btn btn-outline-anartz ms-3"
     >
       {{ btnExternalLabel | translate }}
     </button>

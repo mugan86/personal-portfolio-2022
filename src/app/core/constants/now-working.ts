@@ -20,22 +20,23 @@ export const NOW_WORKING_PROJECTS: Array<INowWorkingItem> = [
         url: 'https://qr-with-vcard-app.stackblitz.io'
     }
 ];
+// nowLearn.content
 export const NOW_WORKING_LEARN: Array<INowWorkingItem> = [
     {
-        description: 'Fundamentos de la arquitectura y desarrollo de software.',
-        title: 'Principios SOLID y Clean Code',
+        description: 'nowLearn.content.solid.description',
+        title: 'nowLearn.content.solid.title',
         logo: 'assets/img/now-working/solid.webp',
         url: 'https://www.udemy.com/course/solid-clean/'
     },
     {
-        description: 'REST, TypeScript, Websockets, Autenticación, Authorización, Docker, Mongo, Postgres, TypeORM,...',
-        title: 'Nest: Desarrollo backend escalable con Node',
+        description: 'nowLearn.content.nestjs.description',
+        title: 'nowLearn.content.nestjs.title',
         logo: 'assets/img/now-working/nestjs.webp',
         url: 'https://www.udemy.com/course/nest-framework/'
     },
     {
-        description: 'Inicia tu carrera DevOps de manera práctica, aprende Docker, pipelines, jenkins, orquestar servicios en kubernetes y más',
-        title: 'DevOps con Docker, Jenkins, Kubernetes, git, GitFlow CI y CD',
+        description: 'nowLearn.content.devops.description',
+        title: 'nowLearn.content.devops.title',
         logo: 'assets/img/now-working/devops.webp',
         url: 'https://www.udemy.com/course/devops-con-dockers-kubernetes-jenkins-y-gitflow-cicd/'
     }
