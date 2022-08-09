@@ -1,22 +1,23 @@
-import { IWorkExperienceItem } from "@core/interfaces/work-experience-item.interface";
+import { IWorkExperienceItem } from '@core/interfaces/work-experience-item.interface';
 
 export const workExperienceDetails: Array<IWorkExperienceItem> = [
-    {
-        companyName: 'AT Sistemas - Desarrollador Frontend Senior',
-        workingData: {
-            start: '03/2022',
-            finish: '?'
-        },
-        collapseMoreDetailsId: 'atSistemas',
-        logotype: 'https://pbs.twimg.com/profile_images/1450711986023514113/3nCSCuY7_400x400.jpg',
-        isCurrentWork: true,
-        principalFunctionsDetails: `
+  {
+    companyName: 'AT Sistemas - Desarrollador Frontend Senior',
+    workingData: {
+      start: '03/2022',
+      finish: '?',
+    },
+    collapseMoreDetailsId: 'atSistemas',
+    logotype:
+      'https://pbs.twimg.com/profile_images/1450711986023514113/3nCSCuY7_400x400.jpg',
+    isCurrentWork: true,
+    principalFunctionsDetails: `
         <p>
             Trabajo 100% remoto. Trabajando para cliente como externo haciendo las labores de Desarrollador Frontend Senior en Angular y también con React.
         </p>
         
         `,
-        moreDetails: `
+    moreDetails: `
         Funciones que realizo:
         <ul>
             <li>Desarrollo de nuevas funcionalidades y correctivos de funciones desarrolladas anteriormente en Angular.</li>
@@ -31,23 +32,24 @@ export const workExperienceDetails: Array<IWorkExperienceItem> = [
             <li>Jira. Seguimiento del proyecto con gestión de incidencias, documentación,...</li>
             <li>Metodología SCRUM para trabajar en equipo.</li>
         </ul>
-        `
+        `,
+  },
+  {
+    companyName: 'Formación Online y Proyectos propios',
+    workingData: {
+      start: '09/2008',
+      finish: '?',
     },
-    {
-        companyName: 'Formación Online y Proyectos propios',
-        workingData: {
-            start: '09/2008',
-            finish: '?'
-        },
-        collapseMoreDetailsId: 'onlineCoursesOurProjects',
-        logotype: 'https://raw.githubusercontent.com/leaflet-maps-course/resources/main/logotypes/am.png',
-        isCurrentWork: true,
-        principalFunctionsDetails: `
+    collapseMoreDetailsId: 'onlineCoursesOurProjects',
+    logotype:
+      'https://raw.githubusercontent.com/leaflet-maps-course/resources/main/logotypes/am.png',
+    isCurrentWork: true,
+    principalFunctionsDetails: `
         <p>
             Proyectos personales como creación de cursos online (PREMIUM y gratis), crear proyectos sobre necesidades que he detectado y más, por mi cuenta.
         </p>
         `,
-        moreDetails: `
+    moreDetails: `
             Tipo de proyectos que he creado:
             <ul>
                 <li>Proyectos Fullstack: Servirace, Gesti Hotels.</li>
@@ -68,51 +70,54 @@ export const workExperienceDetails: Array<IWorkExperienceItem> = [
                 <li>IDEs / Editores de código: Notepad+++, Android Studio, Intellij Jet Brains, Sublime Text,  Visual Studio Code, NetBeans</li>
                 <li>Documentación: Google Drive, Compodoc (proyectos que trabajan con Typescript), Docusaurus, Wiki Github,...</li>
             </ul>
-        `
+        `,
+  },
+  {
+    companyName: 'Fagor Automation (CodeSyntax)',
+    workingData: {
+      start: '03/2017',
+      finish: '02/2019',
     },
-    {
-        companyName: 'Fagor Automation (CodeSyntax)',
-        workingData: {
-            start: '03/2017',
-            finish: '02/2019'
-        },
-        collapseMoreDetailsId: 'fagorAutomation',
-        logotype: 'assets/img/work-companies/fagor_automation.webp',
-        isCurrentWork: false,
-        principalFunctionsDetails: '<p>Como trabajador externo de CodeSyntax. Trabajando en un proyecto para la Industria 4.0, donde el objetivo es comunicar las máquinas para poder visualizar la información desde nuevas tecnologías en diferentes dispositivos modernos como móviles, tablets,...que permiten ver el rendimiento de las máquinas en tiempo real. </p>',
-        moreDetails: ''
+    collapseMoreDetailsId: 'fagorAutomation',
+    logotype: 'assets/img/work-companies/fagor_automation.webp',
+    isCurrentWork: false,
+    principalFunctionsDetails:
+      '<p>Como trabajador externo de CodeSyntax. Trabajando en un proyecto para la Industria 4.0, donde el objetivo es comunicar las máquinas para poder visualizar la información desde nuevas tecnologías en diferentes dispositivos modernos como móviles, tablets,...que permiten ver el rendimiento de las máquinas en tiempo real. </p>',
+    moreDetails: '',
+  },
+  {
+    companyName: 'CodeSyntax',
+    workingData: {
+      start: '06/2014',
+      finish: '03/2017',
     },
-    {
-        companyName: 'CodeSyntax',
-        workingData: {
-            start: '06/2014',
-            finish: '03/2017'
-        },
-        collapseMoreDetailsId: 'codeSyntax',
-        logotype: 'https://pbs.twimg.com/profile_images/1104998186551336960/ikZKw5k4_400x400.png',
-        isCurrentWork: false,
-        principalFunctionsDetails: `
+    collapseMoreDetailsId: 'codeSyntax',
+    logotype:
+      'https://pbs.twimg.com/profile_images/1104998186551336960/ikZKw5k4_400x400.png',
+    isCurrentWork: false,
+    principalFunctionsDetails: `
         <p>
             Desarrollo de aplicaciones nativas en Android y también con Ionic para Android / iOS
         </p>
         `,
-        moreDetails: ``
+    moreDetails: ``,
+  },
+  {
+    companyName: 'CodeSyntax - Formación de Centros de Trabajo (FCT)',
+    workingData: {
+      start: '03/2014',
+      finish: '06/2014',
     },
-    {
-        companyName: 'CodeSyntax - Formación de Centros de Trabajo (FCT)',
-        workingData: {
-            start: '03/2014',
-            finish: '06/2014'
-        },
-        collapseMoreDetailsId: 'codeSyntaxFCT',
-        logotype: 'https://pbs.twimg.com/profile_images/1104998186551336960/ikZKw5k4_400x400.png',
-        isCurrentWork: false,
-        principalFunctionsDetails: `
+    collapseMoreDetailsId: 'codeSyntaxFCT',
+    logotype:
+      'https://pbs.twimg.com/profile_images/1104998186551336960/ikZKw5k4_400x400.png',
+    isCurrentWork: false,
+    principalFunctionsDetails: `
         <p>
             Prácticas relacionados al <b>Ciclo Superior de Técnico en Desarrollo de Aplicaciones Multiplataforma</b> para cumplimentar las horas requeridas para obtener el título
         </p>
         `,
-        moreDetails: `
+    moreDetails: `
         Las tareas que se me asignó, en cuanto a investigación y desarrollo:
         <ul>
             <li>Consumir APIs REST y pintar la información.</li>
@@ -129,6 +134,6 @@ export const workExperienceDetails: Array<IWorkExperienceItem> = [
             <li>Bitbucket para alojar el código y control de versiones.</li>
         </ul>
 
-        `
-    }
-]
+        `,
+  },
+];

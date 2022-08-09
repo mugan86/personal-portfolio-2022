@@ -6,10 +6,10 @@ import { IContactInfoLinks } from '@core/interfaces/contact-info-links.interface
 @Component({
   selector: 'app-footer',
   templateUrl: './footer.component.html',
-  styleUrls: ['./footer.component.scss']
+  styleUrls: ['./footer.component.scss'],
 })
 export class FooterComponent {
   currentYear = new Date().getFullYear();
-  title=GENERAL.title;
+  title = GENERAL.title;
   contactInfoLinks: Array<IContactInfoLinks> = CONTACT_INFO_LINKS;
 }

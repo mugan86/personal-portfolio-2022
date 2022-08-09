@@ -8,9 +8,9 @@ hr {
   margin-bottom: 25px;
 }
 
-input[type="text"],
-input[type="email"],
-input[type="password"],
+input[type='text'],
+input[type='email'],
+input[type='password'],
 textarea {
   width: 100%;
   padding: 12px 20px;
@@ -27,14 +27,15 @@ textarea {
 
 .signup-btn:disabled {
   background-color: #7c7d7c;
-  cursor: not-allowed
+  cursor: not-allowed;
 }
 
 .signup-btn:active {
   background-color: #235623;
 }
 
-.signup-btn:hover, .cancel-btn:hover {
+.signup-btn:hover,
+.cancel-btn:hover {
   opacity: 1;
 }
 
@@ -44,7 +45,8 @@ textarea {
   background-color: #f44336;
 }
 
-.signup-btn, .cancel-btn {
+.signup-btn,
+.cancel-btn {
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -55,7 +57,8 @@ textarea {
 }
 
 /* Float cancel and signup buttons and add an equal width */
-.cancel-btn, .signup-btn {
+.cancel-btn,
+.signup-btn {
   width: 100%;
 }
 
@@ -65,7 +68,8 @@ textarea {
 
 /* Change styles for cancel button and signup button on extra small screens */
 @media screen and (max-width: 300px) {
-  .cancel-btn, .signup-btn {
+  .cancel-btn,
+  .signup-btn {
     width: 100%;
   }
 }

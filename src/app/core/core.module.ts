@@ -7,22 +7,14 @@ import { JoinPipe } from './pipes/join.pipe';
 import { SanitizeHtmlPipe } from './pipes/sanitize.pipe';
 
 @NgModule({
-  imports: [
-    CommonModule,
-    FooterModule,
-    NavbarModule
-  ],
+  imports: [CommonModule, FooterModule, NavbarModule],
   exports: [
     FooterModule,
     NavbarModule,
     TitleCaseWordPipe,
     JoinPipe,
-    SanitizeHtmlPipe
+    SanitizeHtmlPipe,
   ],
-  declarations: [
-    TitleCaseWordPipe,
-    JoinPipe,
-    SanitizeHtmlPipe
-  ]
+  declarations: [TitleCaseWordPipe, JoinPipe, SanitizeHtmlPipe],
 })
-export class CoreModule { }
+export class CoreModule {}

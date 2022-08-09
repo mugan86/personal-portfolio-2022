@@ -1,11 +1,15 @@
 <section class="py-5">
-    <div class="container px-5">
-        <div class="text-center mb-2">
-            <h1 class="fw-bolder">{{ 'title' | translate}}</h1>
-            <p class="lead fw-normal text-muted mb-0">{{ 'subtitle' | translate}}</p>
-        </div>
+  <div class="container px-5">
+    <div class="text-center mb-2">
+      <h1 class="fw-bolder">{{ 'title' | translate }}</h1>
+      <p class="lead fw-normal text-muted mb-0">{{ 'subtitle' | translate }}</p>
     </div>
+  </div>
 </section>
-<app-now-working-section-items [nowWorkingElements]="projects" [projectWorking]="true"></app-now-working-section-items>
-<app-now-working-section-items [nowWorkingElements]="learn" [projectWorking]="false"></app-now-working-section-items>
+<app-now-working-section-items
+  [nowWorkingElements]="projects"
+  [projectWorking]="true"></app-now-working-section-items>
+<app-now-working-section-items
+  [nowWorkingElements]="learn"
+  [projectWorking]="false"></app-now-working-section-items>
 <br /><br />

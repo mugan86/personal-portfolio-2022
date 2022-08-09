@@ -5,16 +5,8 @@ import { CommonModule } from '@angular/common';
 import { InfoCardComponent } from './info-card.component';
 
 @NgModule({
-  declarations: [
-    InfoCardComponent
-  ],
-  imports: [
-    CommonModule,
-    BadgeModule,
-    RouterModule
-  ],
-  exports: [
-    InfoCardComponent
-  ],
+  declarations: [InfoCardComponent],
+  imports: [CommonModule, BadgeModule, RouterModule],
+  exports: [InfoCardComponent],
 })
-export class InfoCardModule { }
+export class InfoCardModule {}

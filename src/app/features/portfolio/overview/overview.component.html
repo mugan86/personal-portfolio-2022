@@ -11,17 +11,21 @@
       <div class="col-lg-2"></div>
       <div class="col-lg">
         <div class="input-group">
-          <button class="btn btn-anartz input-group-text" id="btnGroupAddon" (click)="resetQuery()">X</button>
+          <button
+            class="btn btn-anartz input-group-text"
+            id="btnGroupAddon"
+            (click)="resetQuery()">
+            X
+          </button>
           <input
             type="text"
             class="form-control"
             autofocus
-            placeholder="{{'inputPlaceholder' | translate }}"
+            placeholder="{{ 'inputPlaceholder' | translate }}"
             [(ngModel)]="query"
             (ngModelChange)="searchData($event)"
             id="listSearch"
-            aria-describedby="btnGroupAddon"
-          />
+            aria-describedby="btnGroupAddon" />
         </div>
       </div>
 
@@ -40,8 +44,7 @@
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseTwo"
                 aria-expanded="false"
-                aria-controls="collapseTwo"
-              >
+                aria-controls="collapseTwo">
                 Tecnologías / Funcionalidades
               </button>
             </h2>
@@ -49,8 +52,7 @@
               id="collapseTwo"
               class="accordion-collapse collapse"
               aria-labelledby="headingTwo"
-              data-bs-parent="#accordionExample"
-            >
+              data-bs-parent="#accordionExample">
               <div class="accordion-body">
                 <div class="list-group">
                   <label *ngFor="let technology of filtersByTechnologies">
@@ -61,8 +63,7 @@
                       checked
                       (change)="
                         selectUnselectOptions($event, 'tech', technology)
-                      "
-                    />
+                      " />
                     <span>{{ technology }}</span>
                   </label>
                 </div>
@@ -77,8 +78,7 @@
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseFour"
                 aria-expanded="true"
-                aria-controls="collapseFour"
-              >
+                aria-controls="collapseFour">
                 Proyecto finalizado
               </button>
             </h2>
@@ -86,8 +86,7 @@
               id="collapseFour"
               class="accordion-collapse"
               aria-labelledby="headingFour"
-              data-bs-parent="#accordionExample"
-            >
+              data-bs-parent="#accordionExample">
               <div class="accordion-body">
                 <div class="list-group">
                   <label>
@@ -97,8 +96,7 @@
                       value=""
                       name="flexRadioDefault"
                       checked
-                      (change)="selectUnselectOptions($event, 'finish', '?')"
-                    />
+                      (change)="selectUnselectOptions($event, 'finish', '?')" />
                     <span>Si</span>
                   </label>
                 </div>
@@ -109,8 +107,7 @@
                       type="radio"
                       value=""
                       name="flexRadioDefault"
-                      (change)="selectUnselectOptions($event, 'finish', '')"
-                    />
+                      (change)="selectUnselectOptions($event, 'finish', '')" />
                     <span>No</span>
                   </label>
                 </div>
@@ -124,9 +121,8 @@
         <app-one-colum-portfolio
           [info]="c"
           *ngFor="let c of showItems"
-          [btnDetailsLabel] = "'buttons.details'"
-          [btnExternalLabel] = "'buttons.showCode'"
-        ></app-one-colum-portfolio>
+          [btnDetailsLabel]="'buttons.details'"
+          [btnExternalLabel]="'buttons.showCode'"></app-one-colum-portfolio>
         <div class="alert alert-info" *ngIf="pagination.length === 0">
           {{ 'alerts.noResults' | translate }}
         </div>
@@ -141,8 +137,7 @@
           (changePage)="changePage($event)"
           [itemsPerPage]="itemsPerPage"
           [infoElements]="pagination"
-          [currentPage]="currentPage"
-        ></app-pagination>
+          [currentPage]="currentPage"></app-pagination>
       </div>
     </div>
 

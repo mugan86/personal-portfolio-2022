@@ -15,13 +15,12 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes,
-    {
+  imports: [
+    RouterModule.forRoot(routes, {
       useHash: false,
-      scrollPositionRestoration: 'enabled'
-    }
-  )
+      scrollPositionRestoration: 'enabled',
+    }),
   ],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}

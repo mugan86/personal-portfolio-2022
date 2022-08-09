@@ -13,9 +13,7 @@ export const createTranslateLoader = (http: HttpClient) => {
   return new CustomTranslateLoader(http, FEATURE_DIRECTORIES_I18N.portfolio);
 };
 @NgModule({
-  declarations: [
-    PortfolioComponent
-  ],
+  declarations: [PortfolioComponent],
   imports: [
     CommonModule,
     PortfolioRoutingModule,
@@ -28,6 +26,6 @@ export const createTranslateLoader = (http: HttpClient) => {
       isolate: true,
     }),
     OverviewModule,
-  ]
+  ],
 })
-export class PortfolioModule { }
+export class PortfolioModule {}

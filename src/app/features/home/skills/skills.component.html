@@ -1,13 +1,14 @@
 <div class="container my-5">
-    <div class="row justify-content-center">
-        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-3">
-            {{ 'titles.skills' | translate }}
-        </h2>
-        <div class="icons">
-            <div class="icon" *ngFor="let skill of skills">
-                <span class="iconify" [attr.data-icon]="skill.icon"></span>
-                <span class="text">{{skill.label}}</span>
-            </div>
-        </div>
+  <div class="row justify-content-center">
+    <h2
+      class="page-section-heading text-center text-uppercase text-secondary mb-3">
+      {{ 'titles.skills' | translate }}
+    </h2>
+    <div class="icons">
+      <div class="icon" *ngFor="let skill of skills">
+        <span class="iconify" [attr.data-icon]="skill.icon"></span>
+        <span class="text">{{ skill.label }}</span>
+      </div>
     </div>
+  </div>
 </div>

@@ -1,56 +1,56 @@
 [
-    {
-        "url": "/",
-        "label": "navbar.home",
-        "icon": "",
-        "show": true
-    },  
-    {
-        "url": "/projects",
-        "label": "navbar.projects",
-        "icon": "",
-        "show": true
-    },
-    {
-        "url": "/courses",
-        "label": "navbar.onlineCourses",
-        "icon": "",
-        "show": true
-    },
-    {
-        "url": "/now-working",
-        "label": "navbar.nowWorking",
-        "icon": "",
-        "show": true
-    },
-    {
-        "url": "/gallery",
-        "label": "navbar.gallery",
-        "icon": "",
-        "show": false
-    },
-    {
-        "url": "/about",
-        "label": "navbar.aboutMe",
-        "icon": "",
-        "show": false
-    },
-    {
-        "url": "/contact",
-        "label": "navbar.contact",
-        "icon": "",
-        "show": false
-    },
-    {
-        "url": "/premium-support",
-        "label": "navbar.premiumSupport",
-        "icon": "",
-        "show": false
-    },
-    {
-        "url": "/faq",
-        "label": "navbar.faq",
-        "icon": "",
-        "show": false
-    }
+  {
+    "url": "/",
+    "label": "navbar.home",
+    "icon": "",
+    "show": true
+  },
+  {
+    "url": "/projects",
+    "label": "navbar.projects",
+    "icon": "",
+    "show": true
+  },
+  {
+    "url": "/courses",
+    "label": "navbar.onlineCourses",
+    "icon": "",
+    "show": true
+  },
+  {
+    "url": "/now-working",
+    "label": "navbar.nowWorking",
+    "icon": "",
+    "show": true
+  },
+  {
+    "url": "/gallery",
+    "label": "navbar.gallery",
+    "icon": "",
+    "show": false
+  },
+  {
+    "url": "/about",
+    "label": "navbar.aboutMe",
+    "icon": "",
+    "show": false
+  },
+  {
+    "url": "/contact",
+    "label": "navbar.contact",
+    "icon": "",
+    "show": false
+  },
+  {
+    "url": "/premium-support",
+    "label": "navbar.premiumSupport",
+    "icon": "",
+    "show": false
+  },
+  {
+    "url": "/faq",
+    "label": "navbar.faq",
+    "icon": "",
+    "show": false
+  }
 ]

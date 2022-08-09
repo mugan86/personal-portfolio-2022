@@ -1,16 +1,16 @@
 {
-    "footer": {
-        "allRightsReserved": "Todos los derechos reservados"
-    },
-    "navbar": {
-        "aboutMe": "Sobre mí",
-        "contact": "Contacto",
-        "faq": "FAQ",
-        "gallery": "Galería",
-        "home": "Inicio",
-        "nowWorking": "Trabajando en...",
-        "onlineCourses": "Cursos Online",
-        "premiumSupport": "Soporte Premium",
-        "projects": "Proyectos"
-    }
+  "footer": {
+    "allRightsReserved": "Todos los derechos reservados"
+  },
+  "navbar": {
+    "aboutMe": "Sobre mí",
+    "contact": "Contacto",
+    "faq": "FAQ",
+    "gallery": "Galería",
+    "home": "Inicio",
+    "nowWorking": "Trabajando en...",
+    "onlineCourses": "Cursos Online",
+    "premiumSupport": "Soporte Premium",
+    "projects": "Proyectos"
+  }
 }

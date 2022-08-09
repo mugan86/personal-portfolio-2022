@@ -7,18 +7,15 @@ import { OverviewComponent } from './overview.component';
 import { PaginationModule } from '@shared/pagination/pagination.module';
 import { TranslateModule } from '@ngx-translate/core';
 
-
 @NgModule({
-  declarations: [
-    OverviewComponent,
-  ],
+  declarations: [OverviewComponent],
   imports: [
     CommonModule,
     OneColumPortfolioModule,
     PaginationModule,
     FormsModule,
-    TranslateModule
+    TranslateModule,
   ],
-  exports: [OverviewComponent]
+  exports: [OverviewComponent],
 })
-export class OverviewModule { }
+export class OverviewModule {}

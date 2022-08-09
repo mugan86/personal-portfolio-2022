@@ -13,7 +13,7 @@ import { IInfoCard } from '@core/interfaces/info-card.interface';
   templateUrl: './pagination.component.html',
   styleUrls: ['./pagination.component.scss'],
 })
-export class PaginationComponent implements OnChanges{
+export class PaginationComponent implements OnChanges {
   @Input() itemsPerPage = 5;
   @Input() infoElements: Array<IInfoCard> = [];
   @Input() currentPage = 1;

@@ -10,8 +10,8 @@ import { InfoCardModule } from './info-card/info-card.module';
     LinkModule,
     ModalModule,
     OneColumPortfolioModule,
-    InfoCardModule
+    InfoCardModule,
   ],
-  exports: [ LinkModule, ModalModule ]
+  exports: [LinkModule, ModalModule],
 })
-export class SharedModule { }
+export class SharedModule {}

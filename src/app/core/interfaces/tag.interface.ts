@@ -1,4 +1,4 @@
 export interface ITag {
-    label: string;
-    color: string;
+  label: string;
+  color: string;
 }

@@ -1,5 +1,7 @@
 <a [class]="class" [href]="link" target="_blank" [title]="title">
-    <span *ngIf="!footer" [innerHtml]="linkText"></span>
-    <span *ngIf="footer">{{ footer }} </span>
+  <span *ngIf="!footer" [innerHtml]="linkText"></span>
+  <span *ngIf="footer">{{ footer }} </span>
 </a>
-<span *ngIf="index > -1 && index < total - 1"class="text-white mx-1">&middot;</span>
+<span *ngIf="index > -1 && index < total - 1" class="text-white mx-1"
+  >&middot;</span
+>

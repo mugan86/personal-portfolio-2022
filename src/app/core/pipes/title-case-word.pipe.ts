@@ -1,10 +1,9 @@
 import { Pipe, PipeTransform } from '@angular/core';
 
 @Pipe({
-  name: 'titleCaseWord'
+  name: 'titleCaseWord',
 })
 export class TitleCaseWordPipe implements PipeTransform {
-
   transform(value: string): string {
     return this.titleCaseWord(value);
   }
@@ -13,5 +12,4 @@ export class TitleCaseWordPipe implements PipeTransform {
     if (!word) return 'No word';
     return word[0].toUpperCase() + word.substr(1).toLowerCase();
   }
-
 }

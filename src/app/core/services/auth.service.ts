@@ -9,9 +9,9 @@ import { Subject } from 'rxjs';
 import { optionsWithDetails } from '@shared/alerts/alerts';
 import { REDIRECTS_ROUTES } from '@core/constants/config';
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
-export class AuthService extends ApiService{
+export class AuthService extends ApiService {
   accessVar = new Subject<IMeData>();
   accessVar$ = this.accessVar.asObservable();
   constructor(apollo: Apollo) {
@@ -23,7 +23,6 @@ export class AuthService extends ApiService{
   }
 
   start() {
-
     if (this.getSession() !== null) {
       this.getMe().subscribe((result: IMeData) => {
         if (!result.status) {
@@ -36,7 +35,7 @@ export class AuthService extends ApiService{
       return;
     }
     this.updateSession({
-      status: false
+      status: false,
     });
     console.log('Sesión no iniciada');
   }
@@ -44,23 +43,28 @@ export class AuthService extends ApiService{
   // Añadir métodos para consumir la info de la API
   login(email: string, password: string) {
     return this.get(LOGIN_QUERY, { email, password, include: false }).pipe(
-      map( (result: any) => {
+      map((result: any) => {
         return result.login;
       })
     );
   }
 
   getMe() {
-    return this.get(ME_DATA_QUERY, {
-      include: false
-    },
-    {
-      headers: new HttpHeaders({
-        Authorization: (this.getSession() as ISession).token || ''
+    return this.get(
+      ME_DATA_QUERY,
+      {
+        include: false,
+      },
+      {
+        headers: new HttpHeaders({
+          Authorization: (this.getSession() as ISession).token || '',
+        }),
+      }
+    ).pipe(
+      map((result: any) => {
+        return result.me;
       })
-    }).pipe(map((result: any) => {
-      return result.me;
-    }));
+    );
   }
 
   setSession(token: string, expiresTimeInHours = 24) {
@@ -69,7 +73,7 @@ export class AuthService extends ApiService{
 
     const session: ISession = {
       expiresIn: new Date(date).toISOString(),
-      token
+      token,
     };
     localStorage.setItem('session', JSON.stringify(session));
   }
@@ -95,6 +99,6 @@ export class AuthService extends ApiService{
       localStorage.setItem('route_after_login', routesUrl);
     }
     localStorage.removeItem('session');
-    this.updateSession({status: false});
+    this.updateSession({ status: false });
   }
 }

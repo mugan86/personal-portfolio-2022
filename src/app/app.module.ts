@@ -9,15 +9,12 @@ import { CustomTranslateLoader } from '@core/helpers/i18n';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { FEATURE_DIRECTORIES_I18N } from '@core/constants/i18n';
 
-
 export const createTranslateLoader = (http: HttpClient) => {
   return new CustomTranslateLoader(http, FEATURE_DIRECTORIES_I18N.app);
 };
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
+  declarations: [AppComponent],
   imports: [
     BrowserModule,
     FeaturesModule,
@@ -33,6 +30,6 @@ export const createTranslateLoader = (http: HttpClient) => {
     }),
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

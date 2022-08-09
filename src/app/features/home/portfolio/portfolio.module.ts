@@ -5,20 +5,9 @@ import { SharedModule } from '@shared/shared.module';
 import { RouterModule } from '@angular/router';
 import { TranslateModule } from '@ngx-translate/core';
 
-
-
 @NgModule({
-  declarations: [
-    PortfolioComponent
-  ],
-  imports: [
-    CommonModule,
-    RouterModule,
-    TranslateModule,
-    SharedModule
-  ],
-  exports: [
-    PortfolioComponent
-  ]
+  declarations: [PortfolioComponent],
+  imports: [CommonModule, RouterModule, TranslateModule, SharedModule],
+  exports: [PortfolioComponent],
 })
-export class PortfolioModule { }
+export class PortfolioModule {}

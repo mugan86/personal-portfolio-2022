@@ -10,7 +10,7 @@ import jwtDecode from 'jwt-decode';
 @Injectable({
   providedIn: 'root',
 })
-export class ShopGuard implements CanActivate{
+export class ShopGuard implements CanActivate {
   constructor(private auth: AuthService, private router: Router) {}
   canActivate(
     next: ActivatedRouteSnapshot,
@@ -19,7 +19,7 @@ export class ShopGuard implements CanActivate{
     // Primero comprobar que existe sesión
     if (this.auth.getSession() !== null) {
       console.log('Estamos logueados');
-      const dataDecode: {exp: number} = this.decodeToken();
+      const dataDecode: { exp: number } = this.decodeToken();
       // COmprobar que no está caducado el token
       if (dataDecode.exp < new Date().getTime() / 1000) {
         console.log('Sesión caducada');
@@ -34,7 +34,7 @@ export class ShopGuard implements CanActivate{
     this.router.navigate(['/login']);
     return false;
   }
-  decodeToken(): {exp: number} {
+  decodeToken(): { exp: number } {
     return jwtDecode(this.auth.getSession().token);
   }
 }

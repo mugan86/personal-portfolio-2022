@@ -65,7 +65,7 @@ export const TAGS_ITEMS = {
   },
   MASTERCLASS: {
     label: 'Masterclass',
-    color: '#078473'
+    color: '#078473',
   },
   MEAN: {
     label: 'MEAN',
@@ -77,11 +77,11 @@ export const TAGS_ITEMS = {
   },
   MONGO_DB: {
     label: 'Mongo DB',
-    color: '#4DB33D'
+    color: '#4DB33D',
   },
   MYSQL: {
     label: 'MySQL',
-    color: '#ff99ff'
+    color: '#ff99ff',
   },
   NPM: {
     label: 'NPM',
@@ -121,7 +121,7 @@ export const TAGS_ITEMS = {
   },
   UNITY: {
     label: 'Unity',
-    color: '#28222b'
+    color: '#28222b',
   },
   VUE: {
     label: 'Vue',

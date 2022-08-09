@@ -17,9 +17,7 @@ export const createTranslateLoader = (http: HttpClient) => {
 };
 
 @NgModule({
-  declarations: [
-    HomeComponent
-  ],
+  declarations: [HomeComponent],
   imports: [
     CommonModule,
     HeaderModule,
@@ -36,6 +34,6 @@ export const createTranslateLoader = (http: HttpClient) => {
       },
       isolate: true,
     }),
-  ]
+  ],
 })
-export class HomeModule { }
+export class HomeModule {}

@@ -37,7 +37,7 @@ export class CustomValidationService {
 
       if (
         confirmPasswordControl.errors &&
-        !confirmPasswordControl.errors.passwordMismatch
+        !confirmPasswordControl.errors['passwordMismatch']
       ) {
         return null;
       }
@@ -53,7 +53,7 @@ export class CustomValidationService {
   }
 
   userNameValidator(userControl: AbstractControl) {
-    return new Promise((resolve) => {
+    return new Promise(resolve => {
       setTimeout(() => {
         if (this.validateUserName(userControl.value)) {
           resolve({ userNameNotAvailable: true });

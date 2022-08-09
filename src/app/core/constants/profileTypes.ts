@@ -3,5 +3,5 @@ export enum ProfileTypes {
   Mobile = 'Mobile',
   Frontend = 'Frontend Web',
   Backend = 'Backend Web',
-  VideoGames = "Videojuegos"
+  VideoGames = 'Videojuegos',
 }

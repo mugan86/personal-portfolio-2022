@@ -165,7 +165,7 @@ export const PORTFOLIO_ITEMS: Array<IInfoCard> = [
     git: 'https://github.com/leaflet-maps-course/course-projects-from-scratch',
     top: true,
     profileType: ProfileTypes.Frontend,
-    finish: false
+    finish: false,
   },
   {
     id: 9,
@@ -186,7 +186,7 @@ export const PORTFOLIO_ITEMS: Array<IInfoCard> = [
     year: '2019',
     git: 'https://github.com/npm-js-ts-angular-modules-course',
     profileType: ProfileTypes.Frontend,
-    finish: true
+    finish: true,
   },
   {
     id: 10,
@@ -206,7 +206,7 @@ export const PORTFOLIO_ITEMS: Array<IInfoCard> = [
     git: '',
     top: true,
     profileType: ProfileTypes.FullStack,
-    finish: true
+    finish: true,
   },
   {
     id: 11,
@@ -244,7 +244,7 @@ export const PORTFOLIO_ITEMS: Array<IInfoCard> = [
     git: '',
     year: 2018,
     profileType: ProfileTypes.Frontend,
-    finish: true
+    finish: true,
   },
   {
     id: 13,
@@ -272,7 +272,7 @@ export const PORTFOLIO_ITEMS: Array<IInfoCard> = [
     year: '2021',
     git: '',
     profileType: ProfileTypes.VideoGames,
-    finish: true
+    finish: true,
   },
   {
     id: 14,
@@ -303,7 +303,7 @@ export const PORTFOLIO_ITEMS: Array<IInfoCard> = [
     year: '2020-2021',
     git: '',
     profileType: ProfileTypes.FullStack,
-    finish: true
+    finish: true,
   },
   {
     id: 16,
@@ -331,7 +331,7 @@ export const PORTFOLIO_ITEMS: Array<IInfoCard> = [
     ],
     year: '2021',
     profileType: ProfileTypes.Backend,
-    finish: true
+    finish: true,
   },
   {
     id: 17,
@@ -343,13 +343,10 @@ export const PORTFOLIO_ITEMS: Array<IInfoCard> = [
       'En este taller, en el que vamos a dar varias clases, vamos a conseguir descargar la información de todos los países con los datos más relevantes que nos va a ser útil a la hora de crear las preguntas del juego.',
     image: 'assets/img/portfolio/scrapping-quiz-flags.webp',
     price: 0,
-    tags: [
-      TAGS_ITEMS.TYPESCRIPT,
-      TAGS_ITEMS.NPM
-    ],
+    tags: [TAGS_ITEMS.TYPESCRIPT, TAGS_ITEMS.NPM],
     year: '2021',
     profileType: ProfileTypes.Backend,
-    finish: true
+    finish: true,
   },
   {
     id: 18,
@@ -364,7 +361,7 @@ export const PORTFOLIO_ITEMS: Array<IInfoCard> = [
     year: '2022',
     top: true,
     profileType: ProfileTypes.Frontend,
-    finish: true
+    finish: true,
   },
   {
     id: 19,
@@ -379,7 +376,7 @@ export const PORTFOLIO_ITEMS: Array<IInfoCard> = [
     tags: [TAGS_ITEMS.VUE, TAGS_ITEMS.NPM, TAGS_ITEMS.DEPLOY],
     year: '2020',
     profileType: ProfileTypes.Frontend,
-    finish: true
+    finish: true,
   },
   {
     id: 20,
@@ -394,7 +391,7 @@ export const PORTFOLIO_ITEMS: Array<IInfoCard> = [
     year: '2013-2018',
     top: true,
     profileType: ProfileTypes.FullStack,
-    finish: true
+    finish: true,
   },
   {
     id: 21,
@@ -409,7 +406,7 @@ export const PORTFOLIO_ITEMS: Array<IInfoCard> = [
     year: '2021-2022',
     top: true,
     profileType: ProfileTypes.Backend,
-    finish: false
+    finish: false,
   },
   {
     id: 22,
@@ -428,7 +425,7 @@ export const PORTFOLIO_ITEMS: Array<IInfoCard> = [
     ],
     year: '2020-2022',
     profileType: ProfileTypes.Backend,
-    finish: false
+    finish: false,
   },
   {
     id: 23,
@@ -447,7 +444,7 @@ export const PORTFOLIO_ITEMS: Array<IInfoCard> = [
     ],
     year: '2019',
     profileType: ProfileTypes.Frontend,
-    finish: true
+    finish: true,
   },
   {
     id: 24,
@@ -461,7 +458,7 @@ export const PORTFOLIO_ITEMS: Array<IInfoCard> = [
     tags: [TAGS_ITEMS.C_SHARP, TAGS_ITEMS.UNITY],
     year: '2021',
     profileType: ProfileTypes.VideoGames,
-    finish: true
+    finish: true,
   },
   {
     id: 25,
@@ -479,7 +476,7 @@ export const PORTFOLIO_ITEMS: Array<IInfoCard> = [
     tags: [TAGS_ITEMS.ANDROID, TAGS_ITEMS.JAVA],
     year: '2012',
     profileType: ProfileTypes.Mobile,
-    finish: true
+    finish: true,
   },
   {
     id: 26,
@@ -495,7 +492,7 @@ export const PORTFOLIO_ITEMS: Array<IInfoCard> = [
     year: '2019',
     git: 'https://github.com/npm-js-ts-angular-modules-course/training-node-ts-openweather-api',
     profileType: ProfileTypes.Frontend,
-    finish: true
+    finish: true,
   },
   {
     id: 27,
@@ -509,7 +506,7 @@ export const PORTFOLIO_ITEMS: Array<IInfoCard> = [
     tags: [TAGS_ITEMS.GRAPHQL, TAGS_ITEMS.TYPESCRIPT, TAGS_ITEMS.MASTERCLASS],
     year: '2020',
     profileType: ProfileTypes.Backend,
-    finish: true
+    finish: true,
   },
   {
     id: 28,
@@ -525,7 +522,7 @@ export const PORTFOLIO_ITEMS: Array<IInfoCard> = [
     tags: [TAGS_ITEMS.PYPI, TAGS_ITEMS.PYTHON_3],
     year: '2021',
     profileType: ProfileTypes.FullStack,
-    finish: true
+    finish: true,
   },
   {
     id: 29,
@@ -548,7 +545,7 @@ export const PORTFOLIO_ITEMS: Array<IInfoCard> = [
     tags: [TAGS_ITEMS.ANGULAR, TAGS_ITEMS.NPM, TAGS_ITEMS.TYPESCRIPT],
     year: '2022 - ?',
     profileType: ProfileTypes.Frontend,
-    finish: false
+    finish: false,
   }, //
   {
     id: 30,
@@ -570,7 +567,7 @@ export const PORTFOLIO_ITEMS: Array<IInfoCard> = [
     tags: [TAGS_ITEMS.GRAPHQL, TAGS_ITEMS.MONGO_DB, TAGS_ITEMS.TYPESCRIPT],
     year: '2022',
     profileType: ProfileTypes.Backend,
-    finish: true
+    finish: true,
   }, //
   {
     id: 31,
@@ -590,11 +587,12 @@ export const PORTFOLIO_ITEMS: Array<IInfoCard> = [
     tags: [TAGS_ITEMS.REACT, TAGS_ITEMS.GRAPHQL, TAGS_ITEMS.JAVASCRIPT],
     year: '2022',
     profileType: ProfileTypes.Frontend,
-    finish: true
+    finish: true,
   },
   {
     id: 32,
-    externalRouter: 'https://www.codesyntax.com/es/proyectos/tribual?set_language=es',
+    externalRouter:
+      'https://www.codesyntax.com/es/proyectos/tribual?set_language=es',
     title: 'Tribual App - Android / Ionic (iOS)',
     description: `<p>Aplicación de preguntas y respuestas, de estilo trivial, que hemos desarrollado en CodeSyntax. Se trata de un juego, gratuito, en español, inglés y euskera. Se juega individualmente contestando 5 preguntas aleatorias. Cada partida se envía a 2 personas, por lo que existe competición entre ambas.
 
@@ -604,10 +602,15 @@ export const PORTFOLIO_ITEMS: Array<IInfoCard> = [
     image: 'https://www.spri.eus/archivos/2017/11/TribualCodeSyntax.png',
     price: 0,
     git: '',
-    tags: [TAGS_ITEMS.ANDROID, TAGS_ITEMS.IONIC, TAGS_ITEMS.JAVASCRIPT, TAGS_ITEMS.TYPESCRIPT],
+    tags: [
+      TAGS_ITEMS.ANDROID,
+      TAGS_ITEMS.IONIC,
+      TAGS_ITEMS.JAVASCRIPT,
+      TAGS_ITEMS.TYPESCRIPT,
+    ],
     year: '2014-2015',
     profileType: ProfileTypes.Mobile,
-    finish: true
+    finish: true,
   },
   {
     id: 33,
@@ -623,7 +626,7 @@ export const PORTFOLIO_ITEMS: Array<IInfoCard> = [
     tags: [TAGS_ITEMS.KOTLIN, TAGS_ITEMS.MYSQL],
     year: '2017-2018',
     profileType: ProfileTypes.Backend,
-    finish: true
+    finish: true,
   },
   {
     id: 34,
@@ -638,13 +641,14 @@ export const PORTFOLIO_ITEMS: Array<IInfoCard> = [
     tags: [TAGS_ITEMS.KOTLIN],
     year: '2017',
     profileType: ProfileTypes.Mobile,
-    finish: true
+    finish: true,
   },
 
   {
     id: 35,
     title: 'Conversor de divisas - Currency converter',
-    externalRouter: 'https://play.google.com/store/apps/details?id=amldev.currency&hl=es',
+    externalRouter:
+      'https://play.google.com/store/apps/details?id=amldev.currency&hl=es',
     description: `<p>Aplicación donde ponemos en práctica los conocimientos de Kotlin aplicando el patrón de arquitectura MVP mientras desarrollo una app para convertir divisas en 11 monedas diferentes</p>`,
     image: 'assets/img/portfolio/nothing.webp',
     price: 0,
@@ -652,7 +656,7 @@ export const PORTFOLIO_ITEMS: Array<IInfoCard> = [
     tags: [TAGS_ITEMS.KOTLIN, TAGS_ITEMS.REST],
     year: '2017',
     profileType: ProfileTypes.Mobile,
-    finish: true
+    finish: true,
   },
   {
     id: 36,
@@ -664,8 +668,8 @@ export const PORTFOLIO_ITEMS: Array<IInfoCard> = [
     tags: [TAGS_ITEMS.ANDROID, TAGS_ITEMS.KOTLIN],
     year: '2019',
     profileType: ProfileTypes.Mobile,
-    finish: true
-  }
+    finish: true,
+  },
 ];
 
 //

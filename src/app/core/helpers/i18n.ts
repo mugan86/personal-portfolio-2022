@@ -13,13 +13,13 @@ export class CustomTranslateLoader implements TranslateLoader {
   }
 }
 
-export class MultiTranslateHttpLoader implements TranslateLoader{
+export class MultiTranslateHttpLoader implements TranslateLoader {
   constructor(private http: HttpClient, private resources: String[]) {}
   getTranslation(lang: string) {
-    const requests = this.resources.map((resource) => {
+    const requests = this.resources.map(resource => {
       const path = './assets/data/i18n/' + resource + '/' + lang + '.json';
       return this.http.get(path).pipe(
-        catchError((res) => {
+        catchError(res => {
           console.error(
             'Something went wrong for the following translation file:',
             path
@@ -29,6 +29,6 @@ export class MultiTranslateHttpLoader implements TranslateLoader{
         })
       );
     });
-    return forkJoin(requests).pipe(map((response) => merge.all(response)));
+    return forkJoin(requests).pipe(map(response => merge.all(response)));
   }
 }

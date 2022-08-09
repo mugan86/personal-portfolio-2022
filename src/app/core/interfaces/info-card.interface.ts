@@ -1,7 +1,7 @@
 import { ITag } from './tag.interface';
-import { ProfileTypes } from "./../constants/profileTypes"
+import { ProfileTypes } from './../constants/profileTypes';
 export interface IInfoCard {
-  id?: number,
+  id?: number;
   buttonLabel?: string;
   git?: string;
   title: string;
@@ -13,7 +13,7 @@ export interface IInfoCard {
   price: number | string;
   tags?: Array<ITag>;
   finish?: boolean;
-  year?: number | string
+  year?: number | string;
   top?: boolean;
   profileType?: ProfileTypes;
 }

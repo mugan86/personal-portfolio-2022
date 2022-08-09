@@ -151,5 +151,4 @@ export const COURSES_OFFERS: Array<IInfoCard> = [
       },
     ],
   },
-  
 ];

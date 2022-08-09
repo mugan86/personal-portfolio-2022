@@ -13,9 +13,7 @@ export const createTranslateLoader = (http: HttpClient) => {
 };
 
 @NgModule({
-  declarations: [
-    NowWorkingComponent
-  ],
+  declarations: [NowWorkingComponent],
   imports: [
     CommonModule,
     SectionItemsModule,
@@ -27,7 +25,7 @@ export const createTranslateLoader = (http: HttpClient) => {
       },
       isolate: true,
     }),
-    NowWorkingRoutingModule
-  ]
+    NowWorkingRoutingModule,
+  ],
 })
-export class NowWorkingModule { }
+export class NowWorkingModule {}

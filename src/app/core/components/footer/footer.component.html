@@ -1,18 +1,23 @@
 <footer class="bg-dark py-3 mt-auto fixed-bottom">
-    <div class="container px-5">
-        <div class="row align-items-center justify-content-between flex-column flex-sm-row">
-            <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; {{title}} {{ currentYear }} - {{ 'footer.allRightsReserved' | translate}}</div></div>
-            <div class="col-auto">
-                <app-link 
-                *ngFor="let item of contactInfoLinks; let i = index"
-                [total]="contactInfoLinks.length"
-                [index]="i"
-                [class]="item.class"
-                [link]="item.link"
-                [footer]="item.footer"
-                [title]="item.title"
-                ></app-link>
-            </div>
+  <div class="container px-5">
+    <div
+      class="row align-items-center justify-content-between flex-column flex-sm-row">
+      <div class="col-auto">
+        <div class="small m-0 text-white">
+          Copyright &copy; {{ title }} {{ currentYear }} -
+          {{ 'footer.allRightsReserved' | translate }}
         </div>
+      </div>
+      <div class="col-auto">
+        <app-link
+          *ngFor="let item of contactInfoLinks; let i = index"
+          [total]="contactInfoLinks.length"
+          [index]="i"
+          [class]="item.class"
+          [link]="item.link"
+          [footer]="item.footer"
+          [title]="item.title"></app-link>
+      </div>
     </div>
+  </div>
 </footer>

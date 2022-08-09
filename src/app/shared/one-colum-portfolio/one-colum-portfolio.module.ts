@@ -5,16 +5,8 @@ import { BadgeModule } from '@shared/badge/badge.module';
 import { TranslateModule } from '@ngx-translate/core';
 
 @NgModule({
-  declarations: [
-    OneColumPortfolioComponent
-  ],
-  imports: [
-    CommonModule,
-    BadgeModule,
-    TranslateModule
-  ],
-  exports: [
-    OneColumPortfolioComponent
-  ],
+  declarations: [OneColumPortfolioComponent],
+  imports: [CommonModule, BadgeModule, TranslateModule],
+  exports: [OneColumPortfolioComponent],
 })
-export class OneColumPortfolioModule { }
+export class OneColumPortfolioModule {}

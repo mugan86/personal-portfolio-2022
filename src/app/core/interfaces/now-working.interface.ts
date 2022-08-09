@@ -1,8 +1,8 @@
 export interface INowWorkingItem {
-    url: string;
-    title: string;
-    logo: string;
-    description: string;
+  url: string;
+  title: string;
+  logo: string;
+  description: string;
 }
 
 /*{

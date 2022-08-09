@@ -1,13 +1,23 @@
 <header class="py-5 bg-image-full" style="background-color: #465b78">
-    <div class="text-center my-2">
-        <img class="img-fluid rounded-circle mb-4" width="225px"
-            src="https://pbs.twimg.com/profile_images/1539226286601682944/DjYDptHu_400x400.jpg"
-            alt="Anartz Mugika Ledo - Profile Photo" />
-        <h1 class="text-white fs-3 fw-bolder">Anartz Mugika Ledo</h1>
-        <p class="text-white">Desarrollador y Formador Fullstack / Fullstack Developer and Instructor</p>
-        <p class="text-white mb-0 home-shared">
-            <app-link *ngFor="let item of contactInfoLinks; let i = index" [total]="contactInfoLinks.length" [index]="i"
-                [class]="item.class" [link]="item.link" [linkText]="item.linkText" [title]="item.title"></app-link>
-        </p>
-    </div>
+  <div class="text-center my-2">
+    <img
+      class="img-fluid rounded-circle mb-4"
+      width="225px"
+      src="https://pbs.twimg.com/profile_images/1539226286601682944/DjYDptHu_400x400.jpg"
+      alt="Anartz Mugika Ledo - Profile Photo" />
+    <h1 class="text-white fs-3 fw-bolder">Anartz Mugika Ledo</h1>
+    <p class="text-white">
+      Desarrollador y Formador Fullstack / Fullstack Developer and Instructor
+    </p>
+    <p class="text-white mb-0 home-shared">
+      <app-link
+        *ngFor="let item of contactInfoLinks; let i = index"
+        [total]="contactInfoLinks.length"
+        [index]="i"
+        [class]="item.class"
+        [link]="item.link"
+        [linkText]="item.linkText"
+        [title]="item.title"></app-link>
+    </p>
+  </div>
 </header>

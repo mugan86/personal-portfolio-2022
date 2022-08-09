@@ -1,10 +1,10 @@
 export interface IUser {
-    id: string;
-    name: string;
-    lastname: string;
-    email: string;
-    registerDate?: string;
-    birthday?: string;
-    role?: string;
-    stripeCustomer?: string;
+  id: string;
+  name: string;
+  lastname: string;
+  email: string;
+  registerDate?: string;
+  birthday?: string;
+  role?: string;
+  stripeCustomer?: string;
 }

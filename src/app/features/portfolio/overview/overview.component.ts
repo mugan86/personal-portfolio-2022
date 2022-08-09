@@ -2,7 +2,10 @@ import { PORTFOLIO_ITEMS } from '@core/constants/portfolio';
 import { Component, AfterViewInit } from '@angular/core';
 import { IInfoCard } from '@core/interfaces/info-card.interface';
 import { shuffled } from '@core/helpers/random-array-values';
-import { arrayNumberFromRange, technologiesList } from '@core/helpers/filters-values';
+import {
+  arrayNumberFromRange,
+  technologiesList,
+} from '@core/helpers/filters-values';
 import { filter } from 'rxjs/operators';
 import { TranslateService } from '@ngx-translate/core';
 
@@ -16,7 +19,7 @@ export class OverviewComponent implements AfterViewInit {
   currentPage = 1;
   itemsPerPage = 4;
   infoElements = shuffled(PORTFOLIO_ITEMS);
-  pagination = this.infoElements.map((a) => {
+  pagination = this.infoElements.map(a => {
     return { ...a };
   });
   public query: string = '';
@@ -42,34 +45,42 @@ export class OverviewComponent implements AfterViewInit {
     });
   };
 
-  changePage = (page: number) => this.currentPage = page;
+  changePage = (page: number) => (this.currentPage = page);
 
   resetQuery = () => {
     this.query = '';
     this.searchData('');
   };
 
-  searchData = (event: string, filters: {
-    tag: string, value?: string | number
-  } = { tag: ''}) => {
+  searchData = (
+    event: string,
+    filters: {
+      tag: string;
+      value?: string | number;
+    } = { tag: '' }
+  ) => {
     console.log(this.query, filters);
-    this.currentPage = (this.currentPage > 1) ? 1 : this.currentPage;
-    if (event === '') { // Reset
-      this.pagination = this.infoElements.map((a) => {
+    this.currentPage = this.currentPage > 1 ? 1 : this.currentPage;
+    if (event === '') {
+      // Reset
+      this.pagination = this.infoElements.map(a => {
         return { ...a };
       });
-    } else { // Filter
+    } else {
+      // Filter
       let results: Array<IInfoCard> = [];
       if (filters.tag === '') {
         results = this.infoElements.filter((obj: { title: string }) => {
-          return JSON.stringify(obj).toLowerCase().includes(event.toLowerCase());
-        });// console.log(results);
-      } else if (filters.tag === 'year'){
-        console.log("Filt by filter options - year");
-      } else if (filters.tag === 'tech'){
-        console.log("Filt by filter options - technology");
+          return JSON.stringify(obj)
+            .toLowerCase()
+            .includes(event.toLowerCase());
+        }); // console.log(results);
+      } else if (filters.tag === 'year') {
+        console.log('Filt by filter options - year');
+      } else if (filters.tag === 'tech') {
+        console.log('Filt by filter options - technology');
       }
-      this.pagination = results.map((a) => {
+      this.pagination = results.map(a => {
         return { ...a };
       });
     }
@@ -77,10 +88,15 @@ export class OverviewComponent implements AfterViewInit {
     this.loadData(this.pagination);
   };
 
-  selectUnselectOptions = (event: Event, filtType: string, value: string | number | boolean) => {
-    console.log((event.target as HTMLInputElement).checked, filtType, value)
+  selectUnselectOptions = (
+    event: Event,
+    filtType: string,
+    value: string | number | boolean
+  ) => {
+    console.log((event.target as HTMLInputElement).checked, filtType, value);
     this.searchData(this.query, {
-      tag: filtType, value: String(value)
-    })
-  }
+      tag: filtType,
+      value: String(value),
+    });
+  };
 }

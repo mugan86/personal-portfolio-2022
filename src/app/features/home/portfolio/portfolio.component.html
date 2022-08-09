@@ -1,33 +1,54 @@
 <section class="page-section portfolio" id="portfolio">
-    <div class="container">
-        <!-- Portfolio Section Heading-->
-        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-3">
-            {{ 'titles.portfolio' | translate }}
-        </h2>
-        <p class="lead">Estos son unos ejemplos de proyectos que he trabajado (se cargan aleatoriamente). Si quieres
-            <b>ver con más detalle todos los
-                proyectos, te invito a que accedas al <a [routerLink]="['portfolio']">siguiente enlace.</a></b></p>
-        <!-- Portfolio Grid Items-->
-        <div class="row mb-2">
-            <div class="col-lg"><span class="important-info">{{ 'texts.totalProjects' | translate }}: <span>{{ projectsCount }}</span>
-                </span><button class="btn btn-success bg-dark btn-lg float-end" [routerLink]="['projects']">{{ 'buttons.showAllProjects' | translate }}</button></div>
-        </div>
-        <div class="row justify-content-center mt-2 mb-2 pb-2">
-            <span class="col-md-6 col-lg-4 mb-2 pb-2" *ngFor="let project of projects; let i = index">
-                <a data-bs-toggle="modal" [attr.data-bs-target]="'#staticBackdrop'+ i">
-                    <div class="portfolio-item mx-auto">
-                        <img class="img-fluid cover" [src]="project.image" [alt]="project.title" />
-                        <div class="card-img-overlay">
-                            <h5 class="card-title">{{ project.title }}</h5>
-                        </div>
-                    </div>
-                </a>
-                
-                <app-modal [modalId]="'#staticBackdrop'+ i" [cover]="project.image" [title]="project.title"
-                    [description]="project.description" [externalRouter]="project.externalRouter"></app-modal>
-            </span>
-
-
-        </div>
+  <div class="container">
+    <!-- Portfolio Section Heading-->
+    <h2
+      class="page-section-heading text-center text-uppercase text-secondary mb-3">
+      {{ 'titles.portfolio' | translate }}
+    </h2>
+    <p class="lead">
+      Estos son unos ejemplos de proyectos que he trabajado (se cargan
+      aleatoriamente). Si quieres
+      <b
+        >ver con más detalle todos los proyectos, te invito a que accedas al
+        <a [routerLink]="['portfolio']">siguiente enlace.</a></b
+      >
+    </p>
+    <!-- Portfolio Grid Items-->
+    <div class="row mb-2">
+      <div class="col-lg">
+        <span class="important-info"
+          >{{ 'texts.totalProjects' | translate }}:
+          <span>{{ projectsCount }}</span> </span
+        ><button
+          class="btn btn-success bg-dark btn-lg float-end"
+          [routerLink]="['projects']">
+          {{ 'buttons.showAllProjects' | translate }}
+        </button>
+      </div>
     </div>
+    <div class="row justify-content-center mt-2 mb-2 pb-2">
+      <span
+        class="col-md-6 col-lg-4 mb-2 pb-2"
+        *ngFor="let project of projects; let i = index">
+        <a data-bs-toggle="modal" [attr.data-bs-target]="'#staticBackdrop' + i">
+          <div class="portfolio-item mx-auto">
+            <img
+              class="img-fluid cover"
+              [src]="project.image"
+              [alt]="project.title" />
+            <div class="card-img-overlay">
+              <h5 class="card-title">{{ project.title }}</h5>
+            </div>
+          </div>
+        </a>
+
+        <app-modal
+          [modalId]="'#staticBackdrop' + i"
+          [cover]="project.image"
+          [title]="project.title"
+          [description]="project.description"
+          [externalRouter]="project.externalRouter"></app-modal>
+      </span>
+    </div>
+  </div>
 </section>
