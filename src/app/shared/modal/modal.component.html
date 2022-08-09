@@ -25,7 +25,8 @@
         <img
           [src]="cover"
           [alt]="title"
-          class="img-fluid rounded mx-auto d-block" />
+          class="img-fluid rounded mx-auto d-block"
+          onerror="this.src='/assets/img/default.webp'" />
         <br />
         <div [innerHtml]="description"></div>
         <div class="modal-footer">

@@ -661,7 +661,8 @@ export const PORTFOLIO_ITEMS: Array<IInfoCard> = [
   {
     id: 36,
     title: 'Android - Kotlin - Scanner QR Codes',
-    description: '',
+    description:
+      'Proyecto en el que implemento la solución para poder tener disponible un escaner para leer códigos QR',
     image: '',
     price: 0,
     git: 'https://github.com/mugan86/android-kotlin-qr-scanner',

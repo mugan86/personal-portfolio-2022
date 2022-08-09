@@ -35,7 +35,8 @@
             <img
               class="img-fluid cover"
               [src]="project.image"
-              [alt]="project.title" />
+              [alt]="project.title"
+              onerror="this.src='/assets/img/default.webp'" />
             <div class="card-img-overlay">
               <h5 class="card-title">{{ project.title }}</h5>
             </div>

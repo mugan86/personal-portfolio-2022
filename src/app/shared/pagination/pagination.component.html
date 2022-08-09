@@ -1,14 +1,12 @@
 <ul
   class="pagination justify-content-center mb-5"
-  *ngIf="optionsConfig.pages <= 10"
->
+  *ngIf="optionsConfig.pages <= 10">
   <li class="page-item">
     <a
       class="page-link"
       (click)="selectPage(currentPage - 1)"
       [ngClass]="{ disabled: currentPage === 1 }"
-      aria-label="Previous"
-    >
+      aria-label="Previous">
       <span aria-hidden="true">&laquo;</span>
       <span class="sr-only">Anterior</span>
     </a>
@@ -28,8 +26,7 @@
       class="page-link"
       [ngClass]="{ disabled: currentPage === optionsConfig.pages }"
       (click)="selectPage(currentPage + 1)"
-      aria-label="Next"
-    >
+      aria-label="Next">
       <span aria-hidden="true">&raquo;</span>
       <span class="sr-only">Siguiente</span>
     </a>

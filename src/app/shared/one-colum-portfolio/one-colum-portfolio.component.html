@@ -5,8 +5,7 @@
       class="img-fluid rounded-3 mb-3 mb-md-0"
       src="{{ info.image }}"
       alt="{{ info.title }}"
-      onerror="this.src='/assets/img/default.webp'"
-    />
+      onerror="this.src='/assets/img/default.webp'" />
   </div>
   <div class="col-md">
     <h3>{{ info.title }}</h3>
@@ -16,22 +15,19 @@
     <app-badge
       *ngFor="let badge of info.tags"
       [label]="badge.label"
-      [backgroundColor]="badge.color"
-    ></app-badge>
+      [backgroundColor]="badge.color"></app-badge>
     <p [innerHTML]="info.description"></p>
     <button
       type="button"
       (click)="openExternal(info.externalRouter)"
-      class="btn btn-anartz"
-    >
+      class="btn btn-anartz">
       {{ btnDetailsLabel | translate }}
     </button>
     <button
       *ngIf="info.git && info.git !== ''"
       type="button"
       (click)="openExternal(info.git)"
-      class="btn btn-outline-anartz ms-3"
-    >
+      class="btn btn-outline-anartz ms-3">
       {{ btnExternalLabel | translate }}
     </button>
   </div>
