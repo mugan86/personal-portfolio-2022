@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 
 @Component({
@@ -6,14 +6,9 @@ import { TranslateService } from '@ngx-translate/core';
   templateUrl: './portfolio.component.html',
   styleUrls: ['./portfolio.component.css']
 })
-export class PortfolioComponent implements OnInit {
+export class PortfolioComponent {
 
   constructor(private translate: TranslateService) { 
     this.translate.use('es');
   }
-
-  ngOnInit(): void {
-    console.log('Portfolio');
-  }
-
 }

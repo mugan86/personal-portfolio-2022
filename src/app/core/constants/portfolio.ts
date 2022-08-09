@@ -18,7 +18,7 @@ export const PORTFOLIO_ITEMS: Array<IInfoCard> = [
       TAGS_ITEMS.GRAPHQL,
       TAGS_ITEMS.REACT,
       TAGS_ITEMS.DEPLOY,
-      // TAGS_ITEMS.REST,
+      TAGS_ITEMS.REST,
       TAGS_ITEMS.MERN,
       TAGS_ITEMS.I18N,
       TAGS_ITEMS.CI,
@@ -344,18 +344,8 @@ export const PORTFOLIO_ITEMS: Array<IInfoCard> = [
     image: 'assets/img/portfolio/scrapping-quiz-flags.webp',
     price: 0,
     tags: [
-      {
-        label: 'GraphQL',
-        color: '#bd199c',
-      },
-      {
-        label: 'Angular',
-        color: '#d6153c',
-      },
-      {
-        label: 'Deploy',
-        color: '#5d9b9c',
-      },
+      TAGS_ITEMS.TYPESCRIPT,
+      TAGS_ITEMS.NPM
     ],
     year: '2021',
     profileType: ProfileTypes.Backend,
@@ -664,6 +654,18 @@ export const PORTFOLIO_ITEMS: Array<IInfoCard> = [
     profileType: ProfileTypes.Mobile,
     finish: true
   },
+  {
+    id: 36,
+    title: 'Android - Kotlin - Scanner QR Codes',
+    description: '',
+    image: '',
+    price: 0,
+    git: 'https://github.com/mugan86/android-kotlin-qr-scanner',
+    tags: [TAGS_ITEMS.ANDROID, TAGS_ITEMS.KOTLIN],
+    year: '2019',
+    profileType: ProfileTypes.Mobile,
+    finish: true
+  }
 ];
 
 //

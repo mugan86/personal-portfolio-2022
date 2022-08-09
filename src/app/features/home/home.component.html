@@ -5,7 +5,7 @@
   <div class="container my-5">
     <div class="row justify-content-center">
       <h2 class="page-section-heading text-center text-uppercase text-secondary mb-3">{{ 'titles.whoIAm' | translate}}</h2>
-      <div [innerHtml]="'personal.presentation' | translate | join:''"></div>
+      <div [innerHtml]="'personal.presentation' | translate  | join:'' | sanitizeHtml"></div>
     </div>
   </div>
 </section>

@@ -1,6 +1,4 @@
-import { Component, OnInit } from '@angular/core';
-import { CONTACT_INFO_LINKS } from '@core/constants/contact-info-links';
-import { IContactInfoLinks } from '@core/interfaces/contact-info-links.interface';
+import { Component } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 
 @Component({
@@ -8,14 +6,9 @@ import { TranslateService } from '@ngx-translate/core';
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css']
 })
-export class HomeComponent implements OnInit {
+export class HomeComponent {
   
   constructor(private translate: TranslateService) { 
     this.translate.use('es');
   }
-
-  ngOnInit(): void {
-    console.log('Features');
-  }
-
 }

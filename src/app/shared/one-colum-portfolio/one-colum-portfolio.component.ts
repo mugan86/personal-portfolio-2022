@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { Router } from '@angular/router';
 import { IInfoCard } from '@core/interfaces/info-card.interface';
 
@@ -18,9 +18,6 @@ export class OneColumPortfolioComponent {
   @Input() btnExternalLabel = "Código"
   constructor(private router: Router) { }
 
-  ngOnInit() {
-    console.log(this.btnDetailsLabel, this.btnExternalLabel);
-  }
 
   showDetails = (id: number | undefined) => this.router.navigate(['/portfolio/item', id]);
   
