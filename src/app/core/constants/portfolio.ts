@@ -671,6 +671,24 @@ export const PORTFOLIO_ITEMS: Array<IInfoCard> = [
     profileType: ProfileTypes.Mobile,
     finish: true,
   },
+  {
+    id: 37,
+    title: 'Blog - Anartz Mugika Ledo - Artículos Técnicos',
+    externalRouter: 'https://mugan86.medium.com/',
+    description: `<p>Artículos técnicos sobre tecnologías Javascript, GraphQL y mucho más</p>`,
+    price: 0,
+    git: 'https://github.com/mugan86',
+    tags: [
+      TAGS_ITEMS.JAVASCRIPT,
+      TAGS_ITEMS.NPM,
+      TAGS_ITEMS.PYTHON_3,
+      TAGS_ITEMS.GRAPHQL,
+      TAGS_ITEMS.ANGULAR,
+    ],
+    year: '2019-?',
+    profileType: ProfileTypes.FullStack,
+    finish: false,
+  },
 ];
 
 //
