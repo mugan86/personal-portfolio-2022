@@ -134,7 +134,7 @@ export const PORTFOLIO_ITEMS: Array<IInfoCard> = [
     year: '2021-?',
     git: 'https://github.com/mugan86/bootcamp-basic-to-expert-from-scratch',
     profileType: ProfileTypes.FullStack,
-    finish: false,
+    finish: true,
   },
   {
     id: 7,
@@ -387,7 +387,13 @@ export const PORTFOLIO_ITEMS: Array<IInfoCard> = [
       'Proyecto Fullstack en el que estuve trabajando durante 5 años que era un proyecto que era una app Android que tenía información de carreras y todo lo relacionado con ellas como opiniones, meteorología, fotos cercanas,... Se desarrollo la parte cliente con Android y el backend con PHP con una Base de datos MySQL combinando de manera automatizada información de muchas APIs como Panoramio, Google Places API,...',
     image: 'assets/img/portfolio/servirace.webp',
     price: 0,
-    tags: [TAGS_ITEMS.NPM, TAGS_ITEMS.DEPLOY],
+    tags: [
+      TAGS_ITEMS.ANDROID,
+      TAGS_ITEMS.PHP,
+      TAGS_ITEMS.MYSQL,
+      TAGS_ITEMS.JAVA,
+      TAGS_ITEMS.JAVASCRIPT,
+    ],
     year: '2013-2018',
     top: true,
     profileType: ProfileTypes.FullStack,
@@ -643,7 +649,6 @@ export const PORTFOLIO_ITEMS: Array<IInfoCard> = [
     profileType: ProfileTypes.Mobile,
     finish: true,
   },
-
   {
     id: 35,
     title: 'Conversor de divisas - Currency converter',
@@ -663,7 +668,7 @@ export const PORTFOLIO_ITEMS: Array<IInfoCard> = [
     title: 'Android - Kotlin - Scanner QR Codes',
     description:
       'Proyecto en el que implemento la solución para poder tener disponible un escaner para leer códigos QR',
-    image: '',
+    image: 'assets/img/portfolio/qr.webp',
     price: 0,
     git: 'https://github.com/mugan86/android-kotlin-qr-scanner',
     tags: [TAGS_ITEMS.ANDROID, TAGS_ITEMS.KOTLIN],
@@ -688,6 +693,51 @@ export const PORTFOLIO_ITEMS: Array<IInfoCard> = [
     year: '2019-?',
     profileType: ProfileTypes.FullStack,
     finish: false,
+  },
+  {
+    id: 38,
+    title: 'API GraphQL - Control de Almacen en Tiempo Real',
+    externalRouter: 'https://stock-management-graphql.herokuapp.com/',
+    description: `<p>Proyecto de API donde se gestiona un almacen en tiempo real mediante una conexión de Web sockets mediante el uso de los Subscriptions.</p>`,
+    price: 0,
+    image: 'assets/img/portfolio/warehouse.webp',
+    git: 'https://github.com/graphql-course/warehouse-stock-manage-graphql',
+    tags: [
+      TAGS_ITEMS.GRAPHQL,
+      TAGS_ITEMS.JAVASCRIPT,
+      TAGS_ITEMS.NPM,
+      TAGS_ITEMS.TYPESCRIPT,
+    ],
+    year: '2021',
+    profileType: ProfileTypes.Backend,
+    finish: true,
+  },
+  {
+    id: 39,
+    title: 'CLI Generador de Proyectos GraphQL 2020',
+    externalRouter: 'https://github.com/mugan86/graphql-project-cli#readme',
+    description: `
+    <p>CLI para generar proyectos de manera rápida y sencilla para empezar a trabajar con el desarrollo de APIs GraphQL.</p>
+    <p>Los proyectos tipo que podemos encontrar son los siguientes:</p>
+    <ul>
+      <li>Básico sin variables de entorno ni Base de datos</li>
+      <li>Básico con variables de entorno y sin Base de datos</li>
+      <li>Básico con variables de entorno y Base de datos</li>
+      <li>Sistema de autenticación con Tokens JWT</li>
+      <li>Proyecto base para convertir APIs REST en GraphQL</li>
+    </ul>
+    `,
+    price: 0,
+    git: 'https://github.com/mugan86/graphql-project-cli',
+    tags: [
+      TAGS_ITEMS.GRAPHQL,
+      TAGS_ITEMS.JAVASCRIPT,
+      TAGS_ITEMS.NPM,
+      TAGS_ITEMS.TYPESCRIPT,
+    ],
+    year: '2019-2020',
+    profileType: ProfileTypes.Backend,
+    finish: true,
   },
 ];
 

@@ -5,7 +5,7 @@ export const TAGS_ITEMS = {
   },
   ANDROID: {
     label: 'Android',
-    color: '#d6153c',
+    color: '#3DDC84',
   },
   ANGULAR: {
     label: 'Angular',
@@ -86,6 +86,10 @@ export const TAGS_ITEMS = {
   NPM: {
     label: 'NPM',
     color: '#d6153c',
+  },
+  PHP: {
+    label: 'PHP',
+    color: '#474A8A',
   },
   POSTMAN: {
     label: 'Postman',
