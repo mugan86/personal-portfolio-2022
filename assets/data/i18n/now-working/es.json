@@ -1,45 +1,40 @@
-
-
-
 {
-    "nowLearn": {
-        "content": {
-            "solid": {
-                "description": "Fundamentos de la arquitectura y desarrollo de software.",
-                "title": "Principios SOLID y Clean Code"
-            },
-            "nestjs": {
-                "description": "REST, TypeScript, Websockets, Autenticación, Authorización, Docker, Mongo, Postgres, TypeORM,...",
-                "title": "Nest: Desarrollo backend escalable con Node"
-            },
-            "devops": {
-                "description": "Inicia tu carrera DevOps de manera práctica, aprende Docker, pipelines, jenkins, orquestar servicios en kubernetes y más",
-                "title": "DevOps con Docker, Jenkins, Kubernetes, git, GitFlow CI y CD"
-            }
-        },
-        "title": "",
-        "subtitle": ""
+  "nowLearn": {
+    "content": {
+      "solid": {
+        "description": "Fundamentos de la arquitectura y desarrollo de software.",
+        "title": "Principios SOLID y Clean Code"
+      },
+      "nestjs": {
+        "description": "REST, TypeScript, Websockets, Autenticación, Authorización, Docker, Mongo, Postgres, TypeORM,...",
+        "title": "Nest: Desarrollo backend escalable con Node"
+      },
+      "devops": {
+        "description": "Inicia tu carrera DevOps de manera práctica, aprende Docker, pipelines, jenkins, orquestar servicios en kubernetes y más",
+        "title": "DevOps con Docker, Jenkins, Kubernetes, git, GitFlow CI y CD"
+      }
     },
-    "nowWorkingProjects": {
-        "content": {
-            "angular": {
-                "description": "Versión adaptada de LeafletJS en Angular que se ha creado para simplificar su uso en Angular en cuanto configuraciones y funcionalidades y ser una alternativa a librerías como AGM (Angular Google Maps)",
-                "title": "Angular Leaflet Map"
-            },
-            "schematics": {
-                "description": "Libro que estoy escribiendo con el objetivo enseñar a trabajar con Schematics y como crear los nuestros propios para tener schemas más personalizados y adaptados a nuestras necesidades.",
-                "title": "Angular Schematics: De 0 a Experto"
-            },
-            "vCard": {
-                "description": "Proyecto que nos genera una tarjeta de contacto a partir de introducir unos datos y que esa tarjeta genera un código QR y da opción a copiar todo el HTML para pegarlo en cualquier firma de email. <b>Objetivo: Convertirlo en librería compatible para Angular, React y Vue</b>",
-                "title": "Generador de tarjetas de contacto con QR + VCard"
-            } 
-            
-        },
-        "title": "Trabajando en estos proyectos",
-        "subtitle": "Proyectos personales en los que estoy trabajando actualmente en mi tiempo libre."
+    "title": "",
+    "subtitle": ""
+  },
+  "nowWorkingProjects": {
+    "content": {
+      "angular": {
+        "description": "Versión adaptada de LeafletJS en Angular que se ha creado para simplificar su uso en Angular en cuanto configuraciones y funcionalidades y ser una alternativa a librerías como AGM (Angular Google Maps)",
+        "title": "Angular Leaflet Map"
+      },
+      "schematics": {
+        "description": "Libro que estoy escribiendo con el objetivo enseñar a trabajar con Schematics y como crear los nuestros propios para tener schemas más personalizados y adaptados a nuestras necesidades.",
+        "title": "Angular Schematics: De 0 a Experto"
+      },
+      "vCard": {
+        "description": "Proyecto que nos genera una tarjeta de contacto a partir de introducir unos datos y que esa tarjeta genera un código QR y da opción a copiar todo el HTML para pegarlo en cualquier firma de email. <b>Objetivo: Convertirlo en librería compatible para Angular, React y Vue</b>",
+        "title": "Generador de tarjetas de contacto con QR + VCard"
+      }
     },
-    "subtitle": "En este apartado os muestro en que proyectos me encuentro trabajando y que estoy estudiando por cuenta propia",
-    "title": "Trabajando en..."
+    "title": "Trabajando en estos proyectos",
+    "subtitle": "Proyectos personales en los que estoy trabajando actualmente en mi tiempo libre."
+  },
+  "subtitle": "En este apartado os muestro en que proyectos me encuentro trabajando y que estoy estudiando por cuenta propia",
+  "title": "Trabajando en..."
 }
-
