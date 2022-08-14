@@ -119,6 +119,10 @@ export const TAGS_ITEMS = {
     label: 'Testing',
     color: '#c0d408',
   },
+  TRAVIS_CI: {
+    label: 'Travis CI',
+    color: '#21c2a7',
+  },
   TYPESCRIPT: {
     label: 'Typescript',
     color: '#0850d4',

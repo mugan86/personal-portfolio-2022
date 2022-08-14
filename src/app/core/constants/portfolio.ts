@@ -847,6 +847,41 @@ export const PORTFOLIO_ITEMS: Array<IInfoCard> = [
     profileType: ProfileTypes.Frontend,
     finish: true,
   },
+  {
+    id: 47,
+    title: 'Angular - Unit Testing + E2E con CI Travis CI',
+    description: `<p>Proyecto Angular sencillo que trabajada con una base de datos local con información de países cuyo objetivo es trabajar con el testing</p>
+    <ul><li>Unit Testing</li><li>E2E con Cypress</li><li>Integración Contínua con Travis CI</li></ul>
+      `,
+    git: 'https://github.com/mugan86/angular-countries-app-with-testing',
+    price: 0,
+    tags: [
+      TAGS_ITEMS.ANGULAR,
+      TAGS_ITEMS.TESTING,
+      TAGS_ITEMS.TRAVIS_CI,
+      TAGS_ITEMS.CI,
+    ],
+    year: '2022',
+    profileType: ProfileTypes.Frontend,
+    finish: true,
+  },
+  {
+    id: 48,
+    title: 'Angular Schematics - Proyecto librería',
+    // externalRouter: 'https://nitayneeman.com/posts/making-an-addable-angular-package-using-schematics/',
+    description: `<p>Proyecto Angular sencillo que trata de implementar el desarrollo de varias colecciones de Schematics con varios objetivos</p>
+    <ul>
+      <li>Schematics para añadir un componente con sus estilos y servicio personalizado</li>
+      <li>Schematics que sirve para instalar una librería alojada en NPM de manera sencilla junto con otras configuraciones</li>
+      <li>Schematics para añadir la configuración completa de Apollo Client para trabajar con APIs GraphQL con control de errores y opción a añadir configuración de Web Sockets mejorando el schematics original</li>
+    </ul>
+      `,
+    image: 'assets/img/now-working/schematics.webp',
+    git: 'https://github.com/mugan86/ng-schematics-made-with-love-lib',
+    price: 0,
+    tags: [TAGS_ITEMS.ANGULAR, TAGS_ITEMS.NPM, TAGS_ITEMS.GRAPHQL],
+    year: '2022',
+    profileType: ProfileTypes.Frontend,
+    finish: false,
+  },
 ];
-
-//
