@@ -6,7 +6,6 @@ import {
   arrayNumberFromRange,
   technologiesList,
 } from '@core/helpers/filters-values';
-import { filter } from 'rxjs/operators';
 import { TranslateService } from '@ngx-translate/core';
 
 @Component({
@@ -29,6 +28,7 @@ export class OverviewComponent implements AfterViewInit {
   constructor(private translate: TranslateService) {
     this.translate.use('es');
     this.translate.setDefaultLang('es');
+    console.log(this.pagination);
   }
 
   ngAfterViewInit(): void {

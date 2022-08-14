@@ -18,6 +18,7 @@
       [backgroundColor]="badge.color"></app-badge>
     <p [innerHTML]="info.description"></p>
     <button
+      *ngIf="info.externalRouter && info.externalRouter !== ''"
       type="button"
       (click)="openExternal(info.externalRouter)"
       class="btn btn-anartz">

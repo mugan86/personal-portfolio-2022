@@ -739,6 +739,114 @@ export const PORTFOLIO_ITEMS: Array<IInfoCard> = [
     profileType: ProfileTypes.Backend,
     finish: true,
   },
+  {
+    id: 40,
+    title: 'Consumir APIs GraphQL desde Javascript',
+    description:
+      'Proyecto sencillo en el que muestro como consumir APIs GraphQL mediante diferentes librerías de Javascript como forma ilustrativa',
+    price: 0,
+    git: 'https://github.com/graphql-course/consume-graphql-api-with-js',
+    tags: [TAGS_ITEMS.JAVASCRIPT, TAGS_ITEMS.GRAPHQL],
+    year: '2022',
+    profileType: ProfileTypes.Backend,
+    finish: true,
+  },
+  {
+    id: 41,
+    title: 'Consumir APIs GraphQL desde Vue',
+    description:
+      'Proyecto sencillo en el que muestro como consumir una API GraphQL con Vue',
+    price: 0,
+    git: 'https://github.com/graphql-course/vue-graphql',
+    tags: [TAGS_ITEMS.JAVASCRIPT, TAGS_ITEMS.GRAPHQL, TAGS_ITEMS.VUE],
+    year: '2022',
+    profileType: ProfileTypes.Frontend,
+    finish: true,
+  },
+  {
+    id: 42,
+    title: 'Testing APIs GraphQL',
+    description:
+      'Proyecto ilustrativo para aprender como testear APIs GraphQL con Mocha, Jest y la librería Easy GraphQL Tester con Integración Contínua mediante Travis',
+    price: 0,
+    git: 'https://github.com/graphql-course/intro-to-graphql-testing',
+    tags: [TAGS_ITEMS.JAVASCRIPT, TAGS_ITEMS.GRAPHQL, TAGS_ITEMS.CI],
+    year: '2020',
+    profileType: ProfileTypes.Frontend,
+    finish: true,
+  },
+  {
+    id: 43,
+    title: 'Control de acceso a restaurante y gestión de Picnics',
+    description: `<p>Aplicación Android nativa creada con Kotlin y aplicando buenas prácticas con el patrón MVP. Lo que contiene el proyecto es lo siguiente:</p>
+      <ul>
+        <li>Control de restaurante con un escaner de códigos QR. Controla dependiendo de la reserva y el regimen alimenticio la opción de poder acceder o no.</li>
+        <li>Gestión de Picnics para comprobar su estado y modificar cuando se recoge o cancela.</li>
+      </ul>
+      `,
+    image: 'assets/img/portfolio/app_gesti_hotels.webp',
+    price: 0,
+    git: 'https://bitbucket.org/amldevs/gesti-hotels-app/',
+    tags: [TAGS_ITEMS.ANDROID, TAGS_ITEMS.KOTLIN],
+    year: '2019',
+    profileType: ProfileTypes.Mobile,
+    finish: true,
+  },
+  {
+    id: 44,
+    title: 'Ahorcado - Android (Euskera)',
+    description: `<p>Aplicación Android con casi 5000 palabras para acertar entre muchos temas como deporte, geografía,...El juego actualmente no está publicado aunque se estima el poder relanzarlo en React ó Angular en versión Web. Dispone de las siguientes opciones:</p>
+      <ul>
+        <li>Dos modalidades: Una partida rápida y reto de ronda de palabras a acertar (5, 10, 15 y 20).</li>
+        <li>Multijugador offline. Un jugador añade a mano un tema y palabra a acertar y el otro jugador debe de acertarlo.</li>
+      </ul>
+      `,
+    image: 'assets/img/portfolio/strangle_android.webp',
+    price: 0,
+    tags: [TAGS_ITEMS.ANDROID, TAGS_ITEMS.JAVA],
+    year: '2014',
+    profileType: ProfileTypes.Mobile,
+    finish: true,
+  },
+  {
+    id: 45,
+    title: 'Ahorcado - Proyecto Final Curso C#',
+    externalRouter: 'https://cursos.anartz-mugika.com/master-c-sharp-vsc',
+    description: `<p>Proyecto final del curso <a href="https://cursos.anartz-mugika.com/master-c-sharp-vsc" target="_blank">Programación C# con Visual Studio Code 2021 de 0 a EXPERTO</a> que consiste en realizar una aplicación de consola del popular juego Ahorcado. Dispone de lo siguiente:</p>
+      <ul>
+        <li>Carga información desde fichero haciendo referencia a mano (se podría añadir para cargar de manera aleatoria temas y más opciones).</li>
+        <li>6 intentos y por cada fallo va a dibujando el estado del muñeco.</li>
+        <li>Uso de diferentes colores en consola.</li>
+      </ul>
+      `,
+    image: 'assets/img/portfolio/strangle-c-sharp.webp',
+    git: 'https://github.com/mugan86/strangle-game-c-sharp-net-core',
+    price: 0,
+    tags: [TAGS_ITEMS.C_SHARP, TAGS_ITEMS.ALL_LEVELS],
+    year: '2021',
+    profileType: ProfileTypes.FullStack,
+    finish: true,
+  },
+  {
+    id: 46,
+    title: 'Ahorcado - Angular',
+    externalRouter: 'https://mugan86.github.io/strangle-game-angular-widget/',
+    description: `<p>Juego adaptado al framework Angular para poder jugar a el en navegador. El proyecto consiste en crear la estructura principal para el juego que contiene lo siguiente:</p>
+      <ul>
+        <li>Teclado con letras y números.</li>
+        <li>Contador de tiempo general para saber duración de la partida.</li>
+        <li>Descontador con tiempo limitado para jugada.</li>
+        <li>Preparado para hacer uso de una API</li>
+      </ul>
+      `,
+    image: 'assets/img/portfolio/strangle_angular.webp',
+    git: 'https://github.com/mugan86/strangle-game-angular-widget',
+    price: 0,
+    tags: [TAGS_ITEMS.ANGULAR, TAGS_ITEMS.GITHUB_PAGES],
+    year: '2019',
+    profileType: ProfileTypes.Frontend,
+    finish: true,
+  },
 ];
 
 //
