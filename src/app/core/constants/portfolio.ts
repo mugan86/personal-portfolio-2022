@@ -831,7 +831,9 @@ export const PORTFOLIO_ITEMS: Array<IInfoCard> = [
     id: 46,
     title: 'Ahorcado - Angular',
     externalRouter: 'https://mugan86.github.io/strangle-game-angular-widget/',
-    description: `<p>Juego adaptado al framework Angular para poder jugar a el en navegador. El proyecto consiste en crear la estructura principal para el juego que contiene lo siguiente:</p>
+    description: `
+      <p>Juego adaptado al framework Angular para poder jugar a el en navegador. El proyecto consiste en crear la estructura principal para el juego que contiene lo siguiente:</p>
+      <p>Se hace uso de la <a href="https://github.com/mugan86/chrono-countdown-count" target="_blank">librería Typescript creado del contador / descontador</a></p>
       <ul>
         <li>Teclado con letras y números.</li>
         <li>Contador de tiempo general para saber duración de la partida.</li>
@@ -883,5 +885,64 @@ export const PORTFOLIO_ITEMS: Array<IInfoCard> = [
     year: '2022',
     profileType: ProfileTypes.Frontend,
     finish: false,
+  },
+  {
+    id: 49,
+    title: 'Librería Typescript - Cronómetro - Contador / Descontador',
+    externalRouter: 'https://mugan86-chronometer.firebaseapp.com/',
+    description: `<p>Cronómetro - Librería Typescript - NPM</p>
+    <p>Funciones que contiene:</p>
+    <ul>
+      <li>Contador</li>
+      <li>Descontador</li>
+    </ul>
+      `,
+    image: 'assets/img/portfolio/nothing.webp',
+    git: 'https://github.com/mugan86/chrono-countdown-count',
+    price: 0,
+    tags: [TAGS_ITEMS.TYPESCRIPT, TAGS_ITEMS.NPM, TAGS_ITEMS.COMPODOC],
+    year: '2019',
+    profileType: ProfileTypes.Frontend,
+    finish: true,
+  },
+  {
+    id: 50,
+    title: 'Angular - Stripe',
+    externalRouter: 'https://anartz-mugika.gitbook.io/angular-stripe-pay-form/',
+    description: `<p>Integración de librería Stripe en Angular para realizar pagos de tarjeta usando la librería original.</p>
+    <p>Funciones que contiene:</p>
+    <ul>
+      <li>Crear token tarjeta.</li>
+      <li>Realizar pagos con tarjeta de crédito.</li>
+    </ul>
+      `,
+    image: 'assets/img/portfolio/nothing.webp',
+    git: 'https://github.com/mugan86/ng-stripe-pay-form/tree/master/projects/stripe-payment-form',
+    price: 0,
+    tags: [TAGS_ITEMS.ANGULAR, TAGS_ITEMS.TYPESCRIPT, TAGS_ITEMS.NPM],
+    year: '2020',
+    profileType: ProfileTypes.Frontend,
+    finish: true,
+  },
+  {
+    id: 51,
+    title: 'Angular - Shop UI Library',
+    externalRouter: 'https://anartz-mugika.gitbook.io/angular-shop-ui-library/',
+    description: `<p>Librería de componente para trabajar con los elementos de una tienda Online.</p>
+    <p>Funciones que contiene:</p>
+    <ul>
+      <li>Carousel.</li>
+      <li>Información del producto.</li>
+      <li>Rating: valoraciones con estrellas.</li>
+      <li>Selector de cantidades.</li>
+    </ul>
+      `,
+    image: 'assets/img/portfolio/nothing.webp',
+    git: 'https://github.com/mugan86/frontend-meang-online-shop/tree/shop-ui-library/projects/shop-ui',
+    price: 0,
+    tags: [TAGS_ITEMS.ANGULAR, TAGS_ITEMS.TYPESCRIPT, TAGS_ITEMS.NPM],
+    year: '2020',
+    profileType: ProfileTypes.Frontend,
+    finish: true,
   },
 ];

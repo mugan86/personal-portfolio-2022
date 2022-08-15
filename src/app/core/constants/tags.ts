@@ -19,6 +19,10 @@ export const TAGS_ITEMS = {
     label: 'CI',
     color: '#1DB820',
   },
+  COMPODOC: {
+    label: 'Compodoc',
+    color: '#3498db',
+  },
   C_SHARP: {
     label: 'C#',
     color: '#6f0ba1',
